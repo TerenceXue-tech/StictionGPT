@@ -1,0 +1,1380 @@
+[
+  {
+    "messages": [
+      {
+        "content": "To identify stiction, refer to the provided image. A sigmoid or S-shaped curve in the graph suggests the presence of stiction. The more closely the shape resembles a sigmoid, the more severe the stiction.",
+        "role": "system"
+      },
+      {
+        "content": "<image>Is there stiction in this control loop?",
+        "role": "user"
+      },
+      {
+        "content": "Yes, stiction is detected in this control loop.",
+        "role": "assistant"
+      },
+      {
+        "content": "What leads you to that conclusion?",
+        "role": "user"
+      },
+      {
+        "content": "A sigmoid shape is evident in the image.",
+        "role": "assistant"
+      }
+    ],
+    "images": [
+      "/home/pzk29/XTC/LLaMA-Factory/data/fig_sigmoid2/BAS6/BAS6_norm_S2.jpg"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "content": "Use the provided image to detect stiction. If the graph shows a shape similar to a sigmoid or the letter S, it indicates the presence of stiction. The similarity of the shape correlates with the severity of stiction.",
+        "role": "system"
+      },
+      {
+        "content": "<image>Does this control loop have stiction?",
+        "role": "user"
+      },
+      {
+        "content": "Yes, stiction is present in this control loop.",
+        "role": "assistant"
+      },
+      {
+        "content": "Why do you think so?",
+        "role": "user"
+      },
+      {
+        "content": "The image shows a clear sigmoid shape.",
+        "role": "assistant"
+      }
+    ],
+    "images": [
+      "/home/pzk29/XTC/LLaMA-Factory/data/fig_sigmoid2/BAS7/BAS7_norm_S2.jpg"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "content": "Stiction can be identified by examining the provided image. A sigmoid or S-shaped curve in the graph is indicative of stiction. The closer the shape matches a sigmoid, the more severe the stiction.",
+        "role": "system"
+      },
+      {
+        "content": "<image>Is there stiction in this control loop?",
+        "role": "user"
+      },
+      {
+        "content": "No, this control loop does not show stiction.",
+        "role": "assistant"
+      },
+      {
+        "content": "Why do you think so?",
+        "role": "user"
+      },
+      {
+        "content": "No sigmoid shape is visible in the image.",
+        "role": "assistant"
+      }
+    ],
+    "images": [
+      "/home/pzk29/XTC/LLaMA-Factory/data/fig_sigmoid2/BAS8/BAS8_norm_S2.jpg"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "content": "To detect stiction, analyze the provided image. A sigmoid or S-shaped curve in the graph suggests the presence of stiction. The similarity of the shape to a sigmoid indicates the severity of stiction.",
+        "role": "system"
+      },
+      {
+        "content": "<image>Is there stiction in this control loop?",
+        "role": "user"
+      },
+      {
+        "content": "Yes, stiction is present in this control loop.",
+        "role": "assistant"
+      },
+      {
+        "content": "What leads you to that conclusion?",
+        "role": "user"
+      },
+      {
+        "content": "The image clearly shows a sigmoid shape.",
+        "role": "assistant"
+      }
+    ],
+    "images": [
+      "/home/pzk29/XTC/LLaMA-Factory/data/fig_sigmoid2/CHEM8/CHEM8_norm_S2.jpg"
+    ]
+  },
+
+  {
+    "messages": [
+      {
+        "content": "Examine the provided image to detect stiction. A sigmoid or S-shaped curve in the graph suggests the presence of stiction. The similarity of the shape to a sigmoid indicates the severity of stiction.",
+        "role": "system"
+      },
+      {
+        "content": "<image>Is there stiction in this control loop?",
+        "role": "user"
+      },
+      {
+        "content": "Yes, stiction is present in this control loop.",
+        "role": "assistant"
+      },
+      {
+        "content": "What leads you to that conclusion?",
+        "role": "user"
+      },
+      {
+        "content": "The image clearly shows a sigmoid shape.",
+        "role": "assistant"
+      }
+    ],
+    "images": [
+      "/home/pzk29/XTC/LLaMA-Factory/data/fig_sigmoid2/CHEM19/CHEM19_norm_S2.jpg"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "content": "Stiction can be identified by analyzing the provided image. A sigmoid or S-shaped curve in the graph indicates the presence of stiction. The similarity of the shape to a sigmoid correlates with the severity of stiction.",
+        "role": "system"
+      },
+      {
+        "content": "<image>Is there stiction in this control loop?",
+        "role": "user"
+      },
+      {
+        "content": "Yes, stiction is present in this control loop.",
+        "role": "assistant"
+      },
+      {
+        "content": "Why do you think so?",
+        "role": "user"
+      },
+      {
+        "content": "The image shows a clear sigmoid shape.",
+        "role": "assistant"
+      }
+    ],
+    "images": [
+      "/home/pzk29/XTC/LLaMA-Factory/data/fig_sigmoid2/CHEM20/CHEM20_norm_S2.jpg"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "content": "To detect stiction, refer to the provided image. A sigmoid or S-shaped curve in the graph suggests the presence of stiction. The similarity of the shape to a sigmoid indicates the severity of stiction.",
+        "role": "system"
+      },
+      {
+        "content": "<image>Is there stiction in this control loop?",
+        "role": "user"
+      },
+      {
+        "content": "Yes, stiction is present in this control loop.",
+        "role": "assistant"
+      },
+      {
+        "content": "What leads you to that conclusion?",
+        "role": "user"
+      },
+      {
+        "content": "The image clearly shows a sigmoid shape.",
+        "role": "assistant"
+      }
+    ],
+    "images": [
+      "/home/pzk29/XTC/LLaMA-Factory/data/fig_sigmoid2/CHEM22/CHEM22_norm_S2.jpg"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "content": "Stiction detection is based on the provided image. A sigmoid or S-shaped curve in the graph indicates the presence of stiction. The similarity of the shape to a sigmoid correlates with the severity of stiction.",
+        "role": "system"
+      },
+      {
+        "content": "<image>Is there stiction in this control loop?",
+        "role": "user"
+      },
+      {
+        "content": "Yes, stiction is present in this control loop.",
+        "role": "assistant"
+      },
+      {
+        "content": "Why do you think so?",
+        "role": "user"
+      },
+      {
+        "content": "The image shows a clear sigmoid shape.",
+        "role": "assistant"
+      }
+    ],
+    "images": [
+      "/home/pzk29/XTC/LLaMA-Factory/data/fig_sigmoid2/CHEM35/CHEM35_norm_S2.jpg"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "content": "To identify stiction, refer to the provided image. A sigmoid or S-shaped curve in the graph suggests the presence of stiction. The similarity of the shape to a sigmoid indicates the severity of stiction.",
+        "role": "system"
+      },
+      {
+        "content": "<image>Is there stiction in this control loop?",
+        "role": "user"
+      },
+      {
+        "content": "Yes, stiction is present in this control loop.",
+        "role": "assistant"
+      },
+      {
+        "content": "What leads you to that conclusion?",
+        "role": "user"
+      },
+      {
+        "content": "The image clearly shows a sigmoid shape.",
+        "role": "assistant"
+      }
+    ],
+    "images": [
+      "/home/pzk29/XTC/LLaMA-Factory/data/fig_sigmoid2/CHEM37/CHEM37_norm_S2.jpg"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "content": "Stiction detection is based on the provided image. A sigmoid or S-shaped curve in the graph indicates the presence of stiction. The similarity of the shape to a sigmoid correlates with the severity of stiction.",
+        "role": "system"
+      },
+      {
+        "content": "<image>Is there stiction in this control loop?",
+        "role": "user"
+      },
+      {
+        "content": "No, this control loop does not show stiction.",
+        "role": "assistant"
+      },
+      {
+        "content": "Why do you think so?",
+        "role": "user"
+      },
+      {
+        "content": "No sigmoid shape is visible in the image.",
+        "role": "assistant"
+      }
+    ],
+    "images": [
+      "/home/pzk29/XTC/LLaMA-Factory/data/fig_sigmoid2/CHEM36/CHEM36_norm_S2.jpg"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "content": "To detect stiction, analyze the provided image. A sigmoid or S-shaped curve in the graph suggests the presence of stiction. The similarity of the shape to a sigmoid indicates the severity of stiction.",
+        "role": "system"
+      },
+      {
+        "content": "<image>Is there stiction in this control loop?",
+        "role": "user"
+      },
+      {
+        "content": "No, this control loop does not show stiction.",
+        "role": "assistant"
+      },
+      {
+        "content": "Why do you think so?",
+        "role": "user"
+      },
+      {
+        "content": "No sigmoid shape is visible in the image.",
+        "role": "assistant"
+      }
+    ],
+    "images": [
+      "/home/pzk29/XTC/LLaMA-Factory/data/fig_sigmoid2/CHEM39/CHEM39_norm_S2.jpg"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "content": "Stiction can be identified by examining the provided image. A sigmoid or S-shaped curve in the graph indicates the presence of stiction. The similarity of the shape to a sigmoid correlates with the severity of stiction.",
+        "role": "system"
+      },
+      {
+        "content": "<image>Is there stiction in this control loop?",
+        "role": "user"
+      },
+      {
+        "content": "No, this control loop does not show stiction.",
+        "role": "assistant"
+      },
+      {
+        "content": "Why do you think so?",
+        "role": "user"
+      },
+      {
+        "content": "No sigmoid shape is visible in the image.",
+        "role": "assistant"
+      }
+    ],
+    "images": [
+      "/home/pzk29/XTC/LLaMA-Factory/data/fig_sigmoid2/CHEM21/CHEM21_norm_S2.jpg"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "content": "To detect stiction, refer to the provided image. A sigmoid or S-shaped curve in the graph suggests the presence of stiction. The similarity of the shape to a sigmoid indicates the severity of stiction.",
+        "role": "system"
+      },
+      {
+        "content": "<image>Is there stiction in this control loop?",
+        "role": "user"
+      },
+      {
+        "content": "No, this control loop does not show stiction.",
+        "role": "assistant"
+      },
+      {
+        "content": "Why do you think so?",
+        "role": "user"
+      },
+      {
+        "content": "No sigmoid shape is visible in the image.",
+        "role": "assistant"
+      }
+    ],
+    "images": [
+      "/home/pzk29/XTC/LLaMA-Factory/data/fig_sigmoid2/CHEM71/CHEM71_norm_S2.jpg"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "content": "Stiction detection is based on the provided image. A sigmoid or S-shaped curve in the graph indicates the presence of stiction. The similarity of the shape to a sigmoid correlates with the severity of stiction.",
+        "role": "system"
+      },
+      {
+        "content": "<image>Is there stiction in this control loop?",
+        "role": "user"
+      },
+      {
+        "content": "No, this control loop does not show stiction.",
+        "role": "assistant"
+      },
+      {
+        "content": "Why do you think so?",
+        "role": "user"
+      },
+      {
+        "content": "No sigmoid shape is visible in the image.",
+        "role": "assistant"
+      }
+    ],
+    "images": [
+      "/home/pzk29/XTC/LLaMA-Factory/data/fig_sigmoid2/CHEM72/CHEM72_norm_S2.jpg"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "content": "To identify stiction, refer to the provided image. A sigmoid or S-shaped curve in the graph suggests the presence of stiction. The similarity of the shape to a sigmoid indicates the severity of stiction.",
+        "role": "system"
+      },
+      {
+        "content": "<image>Is there stiction in this control loop?",
+        "role": "user"
+      },
+      {
+        "content": "Yes, stiction is detected in this control loop.",
+        "role": "assistant"
+      },
+        {
+        "content": "What leads you to that conclusion?",
+        "role": "user"
+      },
+      {
+        "content": "The image shows a clear sigmoid shape.",
+        "role": "assistant"
+      }
+    ],
+    "images": [
+      "/home/pzk29/XTC/LLaMA-Factory/data/fig_sigmoid2/PAP1/PAP1_norm_S2.jpg"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "content": "Stiction detection is based on the provided image. A sigmoid or S-shaped curve in the graph indicates the presence of stiction. The similarity of the shape to a sigmoid correlates with the severity of stiction.",
+        "role": "system"
+      },
+      {
+        "content": "<image>Is there stiction in this control loop?",
+        "role": "user"
+      },
+      {
+        "content": "No, this control loop does not show stiction.",
+        "role": "assistant"
+      },
+      {
+        "content": "Why do you think so?",
+        "role": "user"
+      },
+      {
+        "content": "No sigmoid shape is visible in the image.",
+        "role": "assistant"
+      }
+    ],
+    "images": [
+      "/home/pzk29/XTC/LLaMA-Factory/data/fig_sigmoid2/MET1/MET1_norm_S2.jpg"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "content": "To detect stiction, analyze the provided image. A sigmoid or S-shaped curve in the graph suggests the presence of stiction. The similarity of the shape to a sigmoid indicates the severity of stiction.",
+        "role": "system"
+      },
+      {
+        "content": "<image>Is there stiction in this control loop?",
+        "role": "user"
+      },
+      {
+        "content": "No, this control loop does not show stiction.",
+        "role": "assistant"
+      },
+      {
+        "content": "Why do you think so?",
+        "role": "user"
+      },
+      {
+        "content": "No sigmoid shape is visible in the image.",
+        "role": "assistant"
+      }
+    ],
+    "images": [
+      "/home/pzk29/XTC/LLaMA-Factory/data/fig_sigmoid2/PAP6/PAP6_norm_S2.jpg"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "content": "Stiction can be identified by examining the provided image. A sigmoid or S-shaped curve in the graph indicates the presence of stiction. The similarity of the shape to a sigmoid correlates with the severity of stiction.",
+        "role": "system"
+      },
+      {
+        "content": "<image>Is there stiction in this control loop?",
+        "role": "user"
+      },
+      {
+        "content": "No, this control loop does not show stiction.",
+        "role": "assistant"
+      },
+      {
+        "content": "Why do you think so?",
+        "role": "user"
+      },
+      {
+        "content": "No sigmoid shape is visible in the image.",
+        "role": "assistant"
+      }
+    ],
+    "images": [
+      "/home/pzk29/XTC/LLaMA-Factory/data/fig_sigmoid2/PAP7/PAP7_norm_S2.jpg"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "content": "To detect stiction, refer to the provided image. A sigmoid or S-shaped curve in the graph suggests the presence of stiction. The similarity of the shape to a sigmoid indicates the severity of stiction.",
+        "role": "system"
+      },
+      {
+        "content": "<image>Is there stiction in this control loop?",
+        "role": "user"
+      },
+      {
+        "content": "No, this control loop does not show stiction.",
+        "role": "assistant"
+      },
+      {
+        "content": "Why do you think so?",
+        "role": "user"
+      },
+      {
+        "content": "No sigmoid shape is visible in the image.",
+        "role": "assistant"
+      }
+    ],
+    "images": [
+      "/home/pzk29/XTC/LLaMA-Factory/data/fig_sigmoid2/CHEM45/CHEM45_norm_S2.jpg"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "content": "Stiction detection is based on the provided image. A sigmoid or S-shaped curve in the graph indicates the presence of stiction. The similarity of the shape to a sigmoid correlates with the severity of stiction.",
+        "role": "system"
+      },
+      {
+        "content": "<image>Is there stiction in this control loop?",
+        "role": "user"
+      },
+      {
+        "content": "No, this control loop does not show stiction.",
+        "role": "assistant"
+      },
+      {
+        "content": "Why do you think so?",
+        "role": "user"
+      },
+      {
+        "content": "No sigmoid shape is visible in the image.",
+        "role": "assistant"
+      }
+    ],
+    "images": [
+      "/home/pzk29/XTC/LLaMA-Factory/data/fig_sigmoid2/CHEM46/CHEM46_norm_S2.jpg"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "content": "To identify stiction, refer to the provided image. A sigmoid or S-shaped curve in the graph suggests the presence of stiction. The similarity of the shape to a sigmoid indicates the severity of stiction.",
+        "role": "system"
+      },
+      {
+        "content": "<image>Is there stiction in this control loop?",
+        "role": "user"
+      },
+      {
+        "content": "No, this control loop does not show stiction.",
+        "role": "assistant"
+      },
+      {
+        "content": "Why do you think so?",
+        "role": "user"
+      },
+      {
+        "content": "No sigmoid shape is visible in the image.",
+        "role": "assistant"
+      }
+    ],
+    "images": [
+      "/home/pzk29/XTC/LLaMA-Factory/data/fig_sigmoid2/CHEM47/CHEM47_norm_S2.jpg"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "content": "Stiction detection is based on the provided image. A sigmoid or S-shaped curve in the graph indicates the presence of stiction. The similarity of the shape to a sigmoid correlates with the severity of stiction.",
+        "role": "system"
+      },
+      {
+        "content": "<image>Is there stiction in this control loop?",
+        "role": "user"
+      },
+      {
+        "content": "No, this control loop does not show stiction.",
+        "role": "assistant"
+      },
+      {
+        "content": "Why do you think so?",
+        "role": "user"
+      },
+      {
+        "content": "No sigmoid shape is visible in the image.",
+        "role": "assistant"
+      }
+    ],
+    "images": [
+      "/home/pzk29/XTC/LLaMA-Factory/data/fig_sigmoid2/CHEM48/CHEM48_norm_S2.jpg"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "content": "To detect stiction, analyze the provided image. A sigmoid or S-shaped curve in the graph suggests the presence of stiction. The similarity of the shape to a sigmoid indicates the severity of stiction.",
+        "role": "system"
+      },
+      {
+        "content": "<image>Is there stiction in this control loop?",
+        "role": "user"
+      },
+      {
+        "content": "No, this control loop does not show stiction.",
+        "role": "assistant"
+      },
+      {
+        "content": "Why do you think so?",
+        "role": "user"
+      },
+      {
+        "content": "No sigmoid shape is visible in the image.",
+        "role": "assistant"
+      }
+    ],
+    "images": [
+      "/home/pzk29/XTC/LLaMA-Factory/data/fig_sigmoid2/CHEM51/CHEM51_norm_S2.jpg"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "content": "Stiction can be identified by examining the provided image. A sigmoid or S-shaped curve in the graph indicates the presence of stiction. The similarity of the shape to a sigmoid correlates with the severity of stiction.",
+        "role": "system"
+      },
+      {
+        "content": "<image>Is there stiction in this control loop?",
+        "role": "user"
+      },
+      {
+        "content": "Yes, stiction is detected in this control loop.",
+        "role": "assistant"
+      },
+      {
+        "content": "What leads you to that conclusion?",
+        "role": "user"
+      },
+      {
+        "content": "The image shows a clear sigmoid shape.",
+        "role": "assistant"
+      }
+    ],
+    "images": [
+      "/home/pzk29/XTC/LLaMA-Factory/data/fig_sigmoid2/CHEM52/CHEM52_norm_S2.jpg"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "content": "To detect stiction, refer to the provided image. A sigmoid or S-shaped curve in the graph suggests the presence of stiction. The similarity of the shape to a sigmoid indicates the severity of stiction.",
+        "role": "system"
+      },
+      {
+        "content": "<image>Is there stiction in this control loop?",
+        "role": "user"
+      },
+      {
+        "content": "No, this control loop does not show stiction.",
+        "role": "assistant"
+      },
+      {
+        "content": "Why do you think so?",
+        "role": "user"
+      },
+      {
+        "content": "No sigmoid shape is visible in the image.",
+        "role": "assistant"
+      }
+    ],
+    "images": [
+      "/home/pzk29/XTC/LLaMA-Factory/data/fig_sigmoid2/CHEM53/CHEM53_norm_S2.jpg"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "content": "Stiction detection is based on the provided image. A sigmoid or S-shaped curve in the graph indicates the presence of stiction. The similarity of the shape to a sigmoid correlates with the severity of stiction.",
+        "role": "system"
+      },
+      {
+        "content": "<image>Is there stiction in this control loop?",
+        "role": "user"
+      },
+      {
+        "content": "No, this control loop does not show stiction.",
+        "role": "assistant"
+      },
+      {
+        "content": "Why do you think so?",
+        "role": "user"
+      },
+      {
+        "content": "No sigmoid shape is visible in the image.",
+        "role": "assistant"
+      }
+    ],
+    "images": [
+      "/home/pzk29/XTC/LLaMA-Factory/data/fig_sigmoid2/CHEM76/CHEM76_norm_S2.jpg"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "content": "To identify stiction, refer to the provided image. A sigmoid or S-shaped curve in the graph suggests the presence of stiction. The similarity of the shape to a sigmoid indicates the severity of stiction.",
+        "role": "system"
+      },
+      {
+        "content": "<image>Is there stiction in this control loop?",
+        "role": "user"
+      },
+      {
+        "content": "No, this control loop does not show stiction.",
+        "role": "assistant"
+      },
+      {
+        "content": "Why do you think so?",
+        "role": "user"
+      },
+      {
+        "content": "No sigmoid shape is visible in the image.",
+        "role": "assistant"
+      }
+    ],
+    "images": [
+      "/home/pzk29/XTC/LLaMA-Factory/data/fig_sigmoid2/CHEM61/CHEM61_norm_S2.jpg"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "content": "Stiction detection is based on the provided image. A sigmoid or S-shaped curve in the graph indicates the presence of stiction. The similarity of the shape to a sigmoid correlates with the severity of stiction.",
+        "role": "system"
+      },
+      {
+        "content": "<image>Is there stiction in this control loop?",
+        "role": "user"
+      },
+      {
+        "content": "No, this control loop does not show stiction.",
+        "role": "assistant"
+      },
+      {
+        "content": "Why do you think so?",
+        "role": "user"
+      },
+      {
+        "content": "No sigmoid shape is visible in the image.",
+        "role": "assistant"
+      }
+    ],
+    "images": [
+      "/home/pzk29/XTC/LLaMA-Factory/data/fig_sigmoid2/CHEM62/CHEM62_norm_S2.jpg"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "content": "To detect stiction, analyze the provided image. A sigmoid or S-shaped curve in the graph suggests the presence of stiction. The similarity of the shape to a sigmoid indicates the severity of stiction.",
+        "role": "system"
+      },
+      {
+        "content": "<image>Is there stiction in this control loop?",
+        "role": "user"
+      },
+      {
+        "content": "No, this control loop does not show stiction.",
+        "role": "assistant"
+      },
+      {
+        "content": "Why do you think so?",
+        "role": "user"
+      },
+      {
+        "content": "No sigmoid shape is visible in the image.",
+        "role": "assistant"
+      }
+    ],
+    "images": [
+      "/home/pzk29/XTC/LLaMA-Factory/data/fig_sigmoid2/CHEM63/CHEM63_norm_S2.jpg"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "content": "Stiction can be identified by examining the provided image. A sigmoid or S-shaped curve in the graph indicates the presence of stiction. The similarity of the shape to a sigmoid correlates with the severity of stiction.",
+        "role": "system"
+      },
+      {
+        "content": "<image>Is there stiction in this control loop?",
+        "role": "user"
+      },
+      {
+        "content": "No, this control loop does not show stiction.",
+        "role": "assistant"
+      },
+      {
+        "content": "Why do you think so?",
+        "role": "user"
+      },
+      {
+        "content": "No sigmoid shape is visible in the image.",
+        "role": "assistant"
+      }
+    ],
+    "images": [
+      "/home/pzk29/XTC/LLaMA-Factory/data/fig_sigmoid2/BAS5/BAS5_norm_S2.jpg"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "content": "To detect stiction, refer to the provided image. A sigmoid or S-shaped curve in the graph suggests the presence of stiction. The similarity of the shape to a sigmoid indicates the severity of stiction.",
+        "role": "system"
+      },
+      {
+        "content": "<image>Is there stiction in this control loop?",
+        "role": "user"
+      },
+      {
+        "content": "No, this control loop does not show stiction.",
+        "role": "assistant"
+      },
+      {
+        "content": "Why do you think so?",
+        "role": "user"
+      },
+      {
+        "content": "No sigmoid shape is visible in the image.",
+        "role": "assistant"
+      }
+    ],
+    "images": [
+      "/home/pzk29/XTC/LLaMA-Factory/data/fig_sigmoid2/CHEM40/CHEM40_norm_S2.jpg"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "content": "Stiction detection is based on the provided image. A sigmoid or S-shaped curve in the graph indicates the presence of stiction. The similarity of the shape to a sigmoid correlates with the severity of stiction.",
+        "role": "system"
+      },
+      {
+        "content": "<image>Is there stiction in this control loop?",
+        "role": "user"
+      },
+      {
+        "content": "Yes, stiction is detected in this control loop.",
+        "role": "assistant"
+      },
+      {
+        "content": "What leads you to that conclusion?",
+        "role": "user"
+      },
+      {
+        "content": "The stiction is severe. The sticky control valves require immediate maintenance.",
+        "role": "assistant"
+      }
+    ],
+    "images": [
+      "/home/pzk29/XTC/LLaMA-Factory/data/fig_sigmoid2/CHEM24/CHEM24_norm_S2.jpg"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "content": "To identify stiction, refer to the provided image. A sigmoid or S-shaped curve in the graph suggests the presence of stiction. The similarity of the shape to a sigmoid indicates the severity of stiction.",
+        "role": "system"
+      },
+      {
+        "content": "<image>Is there stiction in this control loop?",
+        "role": "user"
+      },
+      {
+        "content": "No, this control loop does not show stiction.",
+        "role": "assistant"
+      },
+      {
+        "content": "Why do you think so?",
+        "role": "user"
+      },
+      {
+        "content": "No sigmoid shape is visible in the image.",
+        "role": "assistant"
+      }
+    ],
+    "images": [
+      "/home/pzk29/XTC/LLaMA-Factory/data/fig_sigmoid2/CHEM41/CHEM41_norm_S2.jpg"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "content": "Stiction detection is based on the provided image. A sigmoid or S-shaped curve in the graph indicates the presence of stiction. The similarity of the shape to a sigmoid correlates with the severity of stiction.",
+        "role": "system"
+      },
+      {
+        "content": "<image>Is there stiction in this control loop?",
+        "role": "user"
+      },
+      {
+        "content": "No, this control loop does not show stiction.",
+        "role": "assistant"
+      },
+      {
+        "content": "Why do you think so?",
+        "role": "user"
+      },
+      {
+        "content": "No sigmoid shape is visible in the image.",
+        "role": "assistant"
+      }
+    ],
+    "images": [
+      "/home/pzk29/XTC/LLaMA-Factory/data/fig_sigmoid2/CHEM43/CHEM43_norm_S2.jpg"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "content": "To detect stiction, analyze the provided image. A sigmoid or S-shaped curve in the graph suggests the presence of stiction. The similarity of the shape to a sigmoid indicates the severity of stiction.",
+        "role": "system"
+      },
+      {
+        "content": "<image>Is there stiction in this control loop?",
+        "role": "user"
+      },
+      {
+        "content": "Yes, stiction is detected in this control loop.",
+        "role": "assistant"
+      },
+      {
+        "content": "What leads you to that conclusion?",
+        "role": "user"
+      },
+      {
+        "content": "The image shows a clear sigmoid shape.",
+        "role": "assistant"
+      }
+    ],
+    "images": [
+      "/home/pzk29/XTC/LLaMA-Factory/data/fig_sigmoid2/CHEM25/CHEM25_norm_S2.jpg"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "content": "Stiction can be identified by examining the provided image. A sigmoid or S-shaped curve in the graph indicates the presence of stiction. The similarity of the shape to a sigmoid correlates with the severity of stiction.",
+        "role": "system"
+      },
+      {
+        "content": "<image>Is there stiction in this control loop?",
+        "role": "user"
+      },
+      {
+        "content": "No, this control loop does not show stiction.",
+        "role": "assistant"
+      },
+      {
+        "content": "Why do you think so?",
+        "role": "user"
+      },
+      {
+        "content": "No sigmoid shape is visible in the image.",
+        "role": "assistant"
+      }
+    ],
+    "images": [
+      "/home/pzk29/XTC/LLaMA-Factory/data/fig_sigmoid2/CHEM50/CHEM50_norm_S2.jpg"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "content": "To detect stiction, refer to the provided image. A sigmoid or S-shaped curve in the graph suggests the presence of stiction. The similarity of the shape to a sigmoid indicates the severity of stiction.",
+        "role": "system"
+      },
+      {
+        "content": "<image>Is there stiction in this control loop?",
+        "role": "user"
+      },
+      {
+        "content": "No, this control loop does not show stiction.",
+        "role": "assistant"
+      },
+      {
+        "content": "Why do you think so?",
+        "role": "user"
+      },
+      {
+        "content": "No sigmoid shape is visible in the image.",
+        "role": "assistant"
+      }
+    ],
+    "images": [
+      "/home/pzk29/XTC/LLaMA-Factory/data/fig_sigmoid2/CHEM56/CHEM56_norm_S2.jpg"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "content": "Stiction detection is based on the provided image. A sigmoid or S-shaped curve in the graph indicates the presence of stiction. The similarity of the shape to a sigmoid correlates with the severity of stiction.",
+        "role": "system"
+      },
+      {
+        "content": "<image>Is there stiction in this control loop?",
+        "role": "user"
+      },
+      {
+        "content": "No, this control loop does not show stiction.",
+        "role": "assistant"
+      },
+      {
+        "content": "Why do you think so?",
+        "role": "user"
+      },
+      {
+        "content": "No sigmoid shape is visible in the image.",
+        "role": "assistant"
+      }
+    ],
+    "images": [
+      "/home/pzk29/XTC/LLaMA-Factory/data/fig_sigmoid2/CHEM59/CHEM59_norm_S2.jpg"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "content": "To identify stiction, refer to the provided image. A sigmoid or S-shaped curve in the graph suggests the presence of stiction. The similarity of the shape to a sigmoid indicates the severity of stiction.",
+        "role": "system"
+      },
+      {
+        "content": "<image>Is there stiction in this control loop?",
+        "role": "user"
+      },
+      {
+        "content": "Yes, stiction is detected in this control loop.",
+        "role": "assistant"
+      },
+      {
+        "content": "What leads you to that conclusion?",
+        "role": "user"
+      },
+      {
+        "content": "The image shows a clear sigmoid shape.",
+        "role": "assistant"
+      }
+    ],
+    "images": [
+      "/home/pzk29/XTC/LLaMA-Factory/data/fig_sigmoid2/PAP13/PAP13_norm_S2.jpg"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "content": "Stiction detection is based on the provided image. A sigmoid or S-shaped curve in the graph indicates the presence of stiction. The similarity of the shape to a sigmoid correlates with the severity of stiction.",
+        "role": "system"
+      },
+      {
+        "content": "<image>Is there stiction in this control loop?",
+        "role": "user"
+      },
+      {
+        "content": "No, this control loop does not show stiction.",
+        "role": "assistant"
+      },
+      {
+        "content": "Why do you think so?",
+        "role": "user"
+      },
+      {
+        "content": "No sigmoid shape is visible in the image.",
+        "role": "assistant"
+      }
+    ],
+    "images": [
+      "/home/pzk29/XTC/LLaMA-Factory/data/fig_sigmoid2/POW2/POW2_norm_S2.jpg"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "content": "To detect stiction, analyze the provided image. A sigmoid or S-shaped curve in the graph suggests the presence of stiction. The similarity of the shape to a sigmoid indicates the severity of stiction.",
+        "role": "system"
+      },
+      {
+        "content": "<image>Is there stiction in this control loop?",
+        "role": "user"
+      },
+      {
+        "content": "No, this control loop does not show stiction.",
+        "role": "assistant"
+      },
+      {
+        "content": "Why do you think so?",
+        "role": "user"
+      },
+      {
+        "content": "No sigmoid shape is visible in the image.",
+        "role": "assistant"
+      }
+    ],
+    "images": [
+      "/home/pzk29/XTC/LLaMA-Factory/data/fig_sigmoid2/POW3/POW3_norm_S2.jpg"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "content": "Stiction can be identified by examining the provided image. A sigmoid or S-shaped curve in the graph indicates the presence of stiction. The similarity of the shape to a sigmoid correlates with the severity of stiction.",
+        "role": "system"
+      },
+      {
+        "content": "<image>Is there stiction in this control loop?",
+        "role": "user"
+      },
+      {
+        "content": "Yes, stiction is detected in this control loop.",
+        "role": "assistant"
+      },
+      {
+        "content": "What leads you to that conclusion?",
+        "role": "user"
+      },
+      {
+        "content": "The image shows a clear sigmoid shape.",
+        "role": "assistant"
+      }
+    ],
+    "images": [
+      "/home/pzk29/XTC/LLaMA-Factory/data/fig_sigmoid2/POW4/POW4_norm_S2.jpg"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "content": "To detect stiction, refer to the provided image. A sigmoid or S-shaped curve in the graph suggests the presence of stiction. The similarity of the shape to a sigmoid indicates the severity of stiction.",
+        "role": "system"
+      },
+      {
+        "content": "<image>Is there stiction in this control loop?",
+        "role": "user"
+      },
+      {
+        "content": "No, this control loop does not show stiction.",
+        "role": "assistant"
+      },
+      {
+        "content": "Why do you think so?",
+        "role": "user"
+      },
+      {
+        "content": "No sigmoid shape is visible in the image.",
+        "role": "assistant"
+      }
+    ],
+    "images": [
+      "/home/pzk29/XTC/LLaMA-Factory/data/fig_sigmoid2/POW5/POW5_norm_S2.jpg"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "content": "Stiction detection is based on the provided image. A sigmoid or S-shaped curve in the graph indicates the presence of stiction. The similarity of the shape to a sigmoid correlates with the severity of stiction.",
+        "role": "system"
+      },
+      {
+        "content": "<image>Is there stiction in this control loop?",
+        "role": "user"
+      },
+      {
+        "content": "No, this control loop does not show stiction.",
+        "role": "assistant"
+      },
+      {
+        "content": "Why do you think so?",
+        "role": "user"
+      },
+      {
+        "content": "No sigmoid shape is visible in the image.",
+        "role": "assistant"
+      }
+    ],
+    "images": [
+      "/home/pzk29/XTC/LLaMA-Factory/data/fig_sigmoid2/CHEM67/CHEM67_norm_S2.jpg"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "content": "To identify stiction, refer to the provided image. A sigmoid or S-shaped curve in the graph suggests the presence of stiction. The similarity of the shape to a sigmoid indicates the severity of stiction.",
+        "role": "system"
+      },
+      {
+        "content": "<image>Is there stiction in this control loop?",
+        "role": "user"
+      },
+      {
+        "content": "No, this control loop does not show stiction.",
+        "role": "assistant"
+      },
+      {
+        "content": "Why do you think so?",
+        "role": "user"
+      },
+      {
+        "content": "No sigmoid shape is visible in the image.",
+        "role": "assistant"
+      }
+    ],
+    "images": [
+      "/home/pzk29/XTC/LLaMA-Factory/data/fig_sigmoid2/CHEM64/CHEM64_norm_S2.jpg"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "content": "Stiction detection is based on the provided image. A sigmoid or S-shaped curve in the graph indicates the presence of stiction. The similarity of the shape to a sigmoid correlates with the severity of stiction.",
+        "role": "system"
+      },
+      {
+        "content": "<image>Is there stiction in this control loop?",
+        "role": "user"
+      },
+      {
+        "content": "No, this control loop does not show stiction.",
+        "role": "assistant"
+      },
+      {
+        "content": "Why do you think so?",
+        "role": "user"
+      },
+      {
+        "content": "No sigmoid shape is visible in the image.",
+        "role": "assistant"
+      }
+    ],
+    "images": [
+      "/home/pzk29/XTC/LLaMA-Factory/data/fig_sigmoid2/CHEM65/CHEM65_norm_S2.jpg"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "content": "To detect stiction, analyze the provided image. A sigmoid or S-shaped curve in the graph suggests the presence of stiction. The similarity of the shape to a sigmoid indicates the severity of stiction.",
+        "role": "system"
+      },
+      {
+        "content": "<image>Is there stiction in this control loop?",
+        "role": "user"
+      },
+      {
+        "content": "No, this control loop does not show stiction.",
+        "role": "assistant"
+      },
+      {
+        "content": "Why do you think so?",
+        "role": "user"
+      },
+      {
+        "content": "No sigmoid shape is visible in the image.",
+        "role": "assistant"
+      }
+    ],
+    "images": [
+      "/home/pzk29/XTC/LLaMA-Factory/data/fig_sigmoid2/CHEM66/CHEM66_norm_S2.jpg"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "content": "Stiction can be identified by examining the provided image. A sigmoid or S-shaped curve in the graph indicates the presence of stiction. The similarity of the shape to a sigmoid correlates with the severity of stiction.",
+        "role": "system"
+      },
+      {
+        "content": "<image>Is there stiction in this control loop?",
+        "role": "user"
+      },
+      {
+        "content": "No, this control loop does not show stiction.",
+        "role": "assistant"
+      },
+      {
+        "content": "Why do you think so?",
+        "role": "user"
+      },
+      {
+        "content": "No sigmoid shape is visible in the image.",
+        "role": "assistant"
+      }
+    ],
+    "images": [
+      "/home/pzk29/XTC/LLaMA-Factory/data/fig_sigmoid2/CHEM75/CHEM75_norm_S2.jpg"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "content": "To detect stiction, refer to the provided image. A sigmoid or S-shaped curve in the graph suggests the presence of stiction. The similarity of the shape to a sigmoid indicates the severity of stiction.",
+        "role": "system"
+      },
+      {
+        "content": "<image>Is there stiction in this control loop?",
+        "role": "user"
+      },
+      {
+        "content": "No, this control loop does not show stiction.",
+        "role": "assistant"
+      },
+      {
+        "content": "Why do you think so?",
+        "role": "user"
+      },
+      {
+        "content": "No sigmoid shape is visible in the image.",
+        "role": "assistant"
+      }
+    ],
+    "images": [
+      "/home/pzk29/XTC/LLaMA-Factory/data/fig_sigmoid2/CHEM68/CHEM68_norm_S2.jpg"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "content": "Stiction detection is based on the provided image. A sigmoid or S-shaped curve in the graph indicates the presence of stiction. The similarity of the shape to a sigmoid correlates with the severity of stiction.",
+        "role": "system"
+      },
+      {
+        "content": "<image>Is there stiction in this control loop?",
+        "role": "user"
+      },
+      {
+        "content": "No, this control loop does not show stiction.",
+        "role": "assistant"
+      },
+      {
+        "content": "Why do you think so?",
+        "role": "user"
+      },
+      {
+        "content": "No sigmoid shape is visible in the image.",
+        "role": "assistant"
+      }
+    ],
+    "images": [
+      "/home/pzk29/XTC/LLaMA-Factory/data/fig_sigmoid2/CHEM69/CHEM69_norm_S2.jpg"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "content": "To identify stiction, refer to the provided image. A sigmoid or S-shaped curve in the graph suggests the presence of stiction. The similarity of the shape to a sigmoid indicates the severity of stiction.",
+        "role": "system"
+      },
+      {
+        "content": "<image>Is there stiction in this control loop?",
+        "role": "user"
+      },
+      {
+        "content": "Yes, stiction is detected in this control loop.",
+        "role": "assistant"
+      },
+      {
+        "content": "What leads you to that conclusion?",
+        "role": "user"
+      },
+      {
+        "content": "The image shows a clear sigmoid shape.",
+        "role": "assistant"
+      }
+    ],
+    "images": [
+      "/home/pzk29/XTC/LLaMA-Factory/data/fig_sigmoid2/CHEM70/CHEM70_norm_S2.jpg"
+    ]
+  }
+]

@@ -1,0 +1,874 @@
+[
+  {
+    "messages": [
+      {
+        "content":"You need to judge whether there is Stiction by the image. The image has PV(blue line) and OP(orange line) on the y-axis and time on the x-axis. PV stands for process variable and OP stands for controller output. Typical feature of Stiction: When OP changes, PV does not respond immediately but remains at its original level. Once OP exceeds a certain threshold, PV suddenly jumps.",
+        "role":"system"
+      },
+      {
+        "content": "<image>This is PV&OP-t graph. Is there stiction?",
+        "role": "user"
+      },
+      {
+        "content": "Yes, there is stiction in this control loop.",
+        "role": "assistant"
+      },
+      {
+        "content": "Why, how do you judge?",
+        "role": "user"
+      },
+      {
+        "content": "The change of PV lags behind that of OP, indicating that there is stiction in the system.",
+        "role": "assistant"
+      }
+    ],
+    "images": [
+      "Stiction_data/BAS6/BAS6_PV_SP_OP_t_norm_filtered_v3.jpg"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "content":"You need to judge whether there is Stiction by the image. The image has PV on the y-axis and OP on the x-axis. PV stands for process variable and OP stands for controller output. The typical feature of Stiction is hysteresis loop trajectory",
+        "role":"system"
+      },
+      {
+        "content": "<image>This is PV-OP graph. Is there stiction?",
+        "role": "user"
+      },
+      {
+        "content": "Yes, there is stiction in this control loop.",
+        "role": "assistant"
+      },
+      {
+        "content": "Why, how do you judge?",
+        "role": "user"
+      },
+      {
+        "content": "In the PV-OP diagram, a typical loop trajectory is shown, and there is no positive linear relationship, indicating the existence of stiction.",
+        "role": "assistant"
+      }
+    ],
+    "images": [
+      "Stiction_data/BAS6/BAS6_OP_PV_raw_v3.jpg"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "content":"You need to judge whether there is Stiction by the image. The image has PV(blue line) and OP(orange line) on the y-axis and time on the x-axis. PV stands for process variable and OP stands for controller output. Typical feature of Stiction: When OP changes, PV does not respond immediately but remains at its original level. Once OP exceeds a certain threshold, PV suddenly jumps.",
+        "role":"system"
+      },
+      {
+        "content": "<image>This is PV&OP-t graph. Is there stiction?",
+        "role": "user"
+      },
+      {
+        "content": "Yes, there is stiction in this control loop.",
+        "role": "assistant"
+      },
+      {
+        "content": "Why, how do you judge?",
+        "role": "user"
+      },
+      {
+        "content": "The change of PV lags behind that of OP, indicating that there is stiction in the system.",
+        "role": "assistant"
+      }
+    ],
+    "images": [
+      "Stiction_data/BAS7/BAS7_PV_SP_OP_t_norm_filtered_v3.jpg"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "content":"You need to judge whether there is Stiction by the image. The image has PV on the y-axis and OP on the x-axis. PV stands for process variable and OP stands for controller output. The typical feature of Stiction is loop trajectory",
+        "role":"system"
+      },
+      {
+        "content": "<image>This is PV-OP graph. Is there stiction?",
+        "role": "user"
+      },
+      {
+        "content": "Yes, there is stiction in this control loop.",
+        "role": "assistant"
+      },
+      {
+        "content": "Why, how do you judge?",
+        "role": "user"
+      },
+      {
+        "content": "In the PV-OP diagram, a typical loop trajectory is shown, and there is no positive linear relationship, indicating the existence of stiction.",
+        "role": "assistant"
+      }
+    ],
+    "images": [
+      "Stiction_data/BAS7/BAS7_OP_PV_raw_v3.jpg"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "content": "You need to determine whether stiction is present based on the image. The graph shows PV (blue line) and OP (orange line) on the y-axis, with time displayed on the x-axis. PV represents the process variable, and OP stands for the controller's output. A typical sign of stiction is that the PV change follows the OP change with a delay.",
+        "role": "system"
+      },
+      {
+        "content": "<image>This is the PV&OP-time graph. Can you detect stiction?",
+        "role": "user"
+      },
+      {
+        "content": "No, stiction is not present in this control loop.",
+        "role": "assistant"
+      },
+      {
+        "content": "Why, how do you reach this conclusion?",
+        "role": "user"
+      },
+      {
+        "content": "PV and OP are changing in opposite directions, which does not align with the characteristics of stiction.",
+        "role": "assistant"
+      }
+    ],
+    "images": [
+      "Stiction_data/BAS8/BAS8_PV_SP_OP_t_norm_filtered_v3.jpg"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "content": "You need to assess whether stiction is present based on the image. The graph shows PV on the y-axis and OP on the x-axis. PV refers to the process variable, and OP is the controller output. A defining feature of stiction is the trajectory of the loop.",
+        "role": "system"
+      },
+      {
+        "content": "<image>This is the PV-OP graph. Can you determine if there is stiction?",
+        "role": "user"
+      },
+      {
+        "content": "No, there is no stiction in this control loop.",
+        "role": "assistant"
+      },
+      {
+        "content": "Why, how do you judge?",
+        "role": "user"
+      },
+      {
+        "content": "In the PV-OP diagram, there is no loop trajectory. It does not meet the characteristics of stiction.",
+        "role": "assistant"
+      }
+    ],
+    "images": [
+      "Stiction_data/BAS8/BAS8_OP_PV_raw_v3.jpg"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "content":"You need to judge whether there is Stiction by the image. The image has PV(blue line) and OP(orange line) on the y-axis and time on the x-axis. PV stands for process variable and OP stands for controller output. Typical feature of Stiction: When OP changes, PV does not respond immediately but remains at its original level. Once OP exceeds a certain threshold, PV suddenly jumps.",
+        "role":"system"
+      },
+      {
+        "content": "<image>This is PV&OP-t graph. Is there stiction?",
+        "role": "user"
+      },
+      {
+        "content": "Yes, there is stiction in this control loop.",
+        "role": "assistant"
+      },
+      {
+        "content": "Why, how do you judge?",
+        "role": "user"
+      },
+      {
+        "content": "The change of PV is behind that of OP, indicating that there is stiction in the system.",
+        "role": "assistant"
+      }
+    ],
+    "images": [
+      "Stiction_data/CHEM7/CHEM7_PV_SP_OP_t_norm_filtered_v3.jpg"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "content":"You need to judge whether there is Stiction by the image. The image has PV on the y-axis and OP on the x-axis. PV stands for process variable and OP stands for controller output. The typical feature of Stiction is loop trajectory",
+        "role":"system"
+      },
+      {
+        "content": "<image>This is PV-OP graph. Is there stiction?",
+        "role": "user"
+      },
+      {
+        "content": "Yes, there is stiction in this control loop.",
+        "role": "assistant"
+      },
+      {
+        "content": "Why, how do you judge?",
+        "role": "user"
+      },
+      {
+        "content": "In the PV-OP diagram, a typical loop trajectory is shown, and there is no positive linear relationship, indicating the existence of stiction.",
+        "role": "assistant"
+      }
+    ],
+    "images": [
+      "Stiction_data/CHEM7/CHEM7_OP_PV_raw_v3.jpg"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "content":"You need to judge whether there is Stiction by the image. The image has PV(blue line) and OP(orange line) on the y-axis and time on the x-axis. PV stands for process variable and OP stands for controller output. Typical feature of Stiction: When OP changes, PV does not respond immediately but remains at its original level. Once OP exceeds a certain threshold, PV suddenly jumps.",
+        "role":"system"
+      },
+      {
+        "content": "<image>This is PV&OP-t graph. Is there stiction?",
+        "role": "user"
+      },
+      {
+        "content": "Yes, there is stiction in this control loop.",
+        "role": "assistant"
+      },
+      {
+        "content": "Why, how do you judge?",
+        "role": "user"
+      },
+      {
+        "content": "The change of PV is behind that of OP, indicating that there is stiction in the system.",
+        "role": "assistant"
+      }
+    ],
+    "images": [
+      "Stiction_data/CHEM8/CHEM8_PV_SP_OP_t_norm_filtered_v3.jpg"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "content":"You need to judge whether there is Stiction by the image. The image has PV on the y-axis and OP on the x-axis. PV stands for process variable and OP stands for controller output. The typical feature of Stiction is loop trajectory",
+        "role":"system"
+      },
+      {
+        "content": "<image>This is PV-OP graph. Is there stiction?",
+        "role": "user"
+      },
+      {
+        "content": "Yes, there is stiction in this control loop.",
+        "role": "assistant"
+      },
+      {
+        "content": "Why, how do you judge?",
+        "role": "user"
+      },
+      {
+        "content": "In the PV-OP diagram, a typical loop trajectory is shown, and there is no positive linear relationship, indicating the existence of stiction.",
+        "role": "assistant"
+      }
+    ],
+    "images": [
+      "Stiction_data/CHEM8/CHEM8_OP_PV_raw_v3.jpg"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "content":"You need to judge whether there is Stiction by the image. The image has PV(blue line) and OP(orange line) on the y-axis and time on the x-axis. PV stands for process variable and OP stands for controller output. Typical feature of Stiction: When OP changes, PV does not respond immediately but remains at its original level. Once OP exceeds a certain threshold, PV suddenly jumps.",
+        "role":"system"
+      },
+      {
+        "content": "<image>This is PV&OP-t graph. Is there stiction?",
+        "role": "user"
+      },
+      {
+        "content": "Yes, there is stiction in this control loop.",
+        "role": "assistant"
+      },
+      {
+        "content": "Why, how do you judge?",
+        "role": "user"
+      },
+      {
+        "content": "The change of PV is behind that of OP, indicating that there is stiction in the system.",
+        "role": "assistant"
+      }
+    ],
+    "images": [
+      "Stiction_data/CHEM19/CHEM19_PV_SP_OP_t_norm_filtered_v3.jpg"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "content":"You need to judge whether there is Stiction by the image. The image has PV on the y-axis and OP on the x-axis. PV stands for process variable and OP stands for controller output. The typical feature of Stiction is loop trajectory",
+        "role":"system"
+      },
+      {
+        "content": "<image>This is PV-OP graph. Is there stiction?",
+        "role": "user"
+      },
+      {
+        "content": "Yes, there is stiction in this control loop.",
+        "role": "assistant"
+      },
+      {
+        "content": "Why, how do you judge?",
+        "role": "user"
+      },
+      {
+        "content": "In the PV-OP diagram, a typical loop trajectory is shown, and there is no positive linear relationship, indicating the existence of stiction.",
+        "role": "assistant"
+      }
+    ],
+    "images": [
+      "Stiction_data/CHEM19/CHEM19_OP_PV_raw_v3.jpg"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "content":"You need to judge whether there is Stiction by the image. The image has PV(blue line) and OP(orange line) on the y-axis and time on the x-axis. PV stands for process variable and OP stands for controller output. Typical feature of Stiction: When OP changes, PV does not respond immediately but remains at its original level. Once OP exceeds a certain threshold, PV suddenly jumps.",
+        "role":"system"
+      },
+      {
+        "content": "<image>This is PV&OP-t graph. Is there stiction?",
+        "role": "user"
+      },
+      {
+        "content": "Yes, there is stiction in this control loop.",
+        "role": "assistant"
+      },
+      {
+        "content": "Why, how do you judge?",
+        "role": "user"
+      },
+      {
+        "content": "When OP changes with time, PV jumps abruptly, indicating that there is stiction in the system.",
+        "role": "assistant"
+      }
+    ],
+    "images": [
+      "Stiction_data/CHEM20/CHEM20_PV_SP_OP_t_norm_filtered_v3.jpg"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "content":"You need to judge whether there is Stiction by the image. The image has PV on the y-axis and OP on the x-axis. PV stands for process variable and OP stands for controller output. The typical feature of Stiction is loop trajectory",
+        "role":"system"
+      },
+      {
+        "content": "<image>This is PV-OP graph. Is there stiction?",
+        "role": "user"
+      },
+      {
+        "content": "It is approximately a positive linear relationship, but it is not certain whether there is stiction. Please provide image of PV and OP changes over time.",
+        "role": "assistant"
+      }
+    ],
+    "images": [
+      "Stiction_data/CHEM20/CHEM20_OP_PV_raw_v3.jpg"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "content":"You need to judge whether there is Stiction by the image. The image has PV(blue line) and OP(orange line) on the y-axis and time on the x-axis. PV stands for process variable and OP stands for controller output. Typical feature of Stiction: When OP changes, PV does not respond immediately but remains at its original level. Once OP exceeds a certain threshold, PV suddenly jumps.",
+        "role":"system"
+      },
+      {
+        "content": "<image>This is PV&OP-t graph. Is there stiction?",
+        "role": "user"
+      },
+      {
+        "content": "Yes, there is stiction in this control loop.",
+        "role": "assistant"
+      },
+      {
+        "content": "Why, how do you judge?",
+        "role": "user"
+      },
+      {
+        "content": "The change of PV is behind that of OP and step changes occur in PV, indicating that there is stiction in the system.",
+        "role": "assistant"
+      }
+    ],
+    "images": [
+      "Stiction_data/CHEM22/CHEM22_PV_SP_OP_t_norm_filtered_v3.jpg"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "content":"You need to judge whether there is Stiction by the image. The image has PV on the y-axis and OP on the x-axis. PV stands for process variable and OP stands for controller output. The typical feature of Stiction is loop trajectory",
+        "role":"system"
+      },
+      {
+        "content": "<image>This is PV-OP graph. Is there stiction?",
+        "role": "user"
+      },
+      {
+        "content": "Yes, there is stiction in this control loop.",
+        "role": "assistant"
+      },
+      {
+        "content": "Why, how do you judge?",
+        "role": "user"
+      },
+      {
+        "content": "In the PV-OP diagram, a typical loop trajectory is shown, and there is no positive linear relationship, indicating the existence of stiction.",
+        "role": "assistant"
+      }
+    ],
+    "images": [
+      "Stiction_data/CHEM22/CHEM22_OP_PV_raw_v3.jpg"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "content":"You need to judge whether there is Stiction by the image. The image has PV(blue line) and OP(orange line) on the y-axis and time on the x-axis. PV stands for process variable and OP stands for controller output. Typical feature of Stiction: When OP changes, PV does not respond immediately but remains at its original level. Once OP exceeds a certain threshold, PV suddenly jumps.",
+        "role":"system"
+      },
+      {
+        "content": "<image>This is PV&OP-t graph. Is there stiction?",
+        "role": "user"
+      },
+      {
+        "content": "Yes, there is stiction in this control loop.",
+        "role": "assistant"
+      },
+      {
+        "content": "Why, how do you judge?",
+        "role": "user"
+      },
+      {
+        "content": "The change of PV is behind that of OP and step changes occur in PV, indicating that there is stiction in the system.",
+        "role": "assistant"
+      }
+    ],
+    "images": [
+      "Stiction_data/CHEM35/CHEM35_PV_SP_OP_t_norm_filtered_v3.jpg"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "content":"You need to judge whether there is Stiction by the image. The image has PV on the y-axis and OP on the x-axis. PV stands for process variable and OP stands for controller output. The typical feature of Stiction is loop trajectory",
+        "role":"system"
+      },
+      {
+        "content": "<image>This is PV-OP graph. Is there stiction?",
+        "role": "user"
+      },
+      {
+        "content": "PV and OP show a nonlinear relationship and cannot be accurately judged. Please provide image of PV and OP changes over time.",
+        "role": "assistant"
+      }
+    ],
+    "images": [
+      "Stiction_data/CHEM35/CHEM35_OP_PV_raw_v3.jpg"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "content":"You need to judge whether there is Stiction by the image. The image has PV(blue line) and OP(orange line) on the y-axis and time on the x-axis. PV stands for process variable and OP stands for controller output. Typical feature of Stiction: When OP changes, PV does not respond immediately but remains at its original level. Once OP exceeds a certain threshold, PV suddenly jumps.",
+        "role":"system"
+      },
+      {
+        "content": "<image>This is PV&OP-t graph. Is there stiction?",
+        "role": "user"
+      },
+      {
+        "content": "No, there is no stiction in this control loop.",
+        "role": "assistant"
+      },
+      {
+        "content": "Why, how do you judge?",
+        "role": "user"
+      },
+      {
+        "content": "The change of PV is before that of OP and there is some overlap. It does not meet the characteristics of stiction.",
+        "role": "assistant"
+      }
+    ],
+    "images": [
+      "Stiction_data/CHEM71/CHEM71_PV_SP_OP_t_norm_filtered_v3.jpg"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "content":"You need to judge whether there is Stiction by the image. The image has PV on the y-axis and OP on the x-axis. PV stands for process variable and OP stands for controller output. The typical feature of Stiction is loop trajectory",
+        "role":"system"
+      },
+      {
+        "content": "<image>This is PV-OP graph. Is there stiction?",
+        "role": "user"
+      },
+      {
+        "content": "PV and OP show a nonlinear relationship and cannot be accurately judged. Please provide image of PV and OP changes over time.",
+        "role": "assistant"
+      }
+    ],
+    "images": [
+      "Stiction_data/CHEM71/CHEM71_OP_PV_raw_v3.jpg"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "content":"You need to judge whether there is Stiction by the image. The image has PV(blue line) and OP(orange line) on the y-axis and time on the x-axis. PV stands for process variable and OP stands for controller output. Typical feature of Stiction: When OP changes, PV does not respond immediately but remains at its original level. Once OP exceeds a certain threshold, PV suddenly jumps.",
+        "role":"system"
+      },
+      {
+        "content": "<image>This is PV&OP-t graph. Is there stiction?",
+        "role": "user"
+      },
+      {
+        "content": "Yes, there is stiction in this control loop.",
+        "role": "assistant"
+      },
+      {
+        "content": "Why, how do you judge?",
+        "role": "user"
+      },
+      {
+        "content": "The change of PV lags behind that of OP, indicating that there is stiction in the system.",
+        "role": "assistant"
+      }
+    ],
+    "images": [
+      "Stiction_data/PAP1/PAP1_PV_SP_OP_t_norm_filtered_v3.jpg"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "content":"You need to judge whether there is Stiction by the image. The image has PV on the y-axis and OP on the x-axis. PV stands for process variable and OP stands for controller output. The typical feature of Stiction is loop trajectory",
+        "role":"system"
+      },
+      {
+        "content": "<image>This is PV-OP graph. Is there stiction?",
+        "role": "user"
+      },
+      {
+        "content": "Yes, there is stiction in this control loop.",
+        "role": "assistant"
+      },
+      {
+        "content": "Why, how do you judge?",
+        "role": "user"
+      },
+      {
+        "content": "In the PV-OP diagram, a typical loop trajectory is shown, and there is no positive linear relationship, indicating the existence of stiction.",
+        "role": "assistant"
+      }
+    ],
+    "images": [
+      "Stiction_data/PAP1/PAP1_OP_PV_raw_v3.jpg"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "content":"You need to judge whether there is Stiction by the image. The image has PV(blue line) and OP(orange line) on the y-axis and time on the x-axis. PV stands for process variable and OP stands for controller output. Typical feature of Stiction: When OP changes, PV does not respond immediately but remains at its original level. Once OP exceeds a certain threshold, PV suddenly jumps.",
+        "role":"system"
+      },
+      {
+        "content": "<image>This is PV&OP-t graph. Is there stiction?",
+        "role": "user"
+      },
+      {
+        "content": "No, there is no stiction in this control loop.",
+        "role": "assistant"
+      },
+      {
+        "content": "Why, how do you judge?",
+        "role": "user"
+      },
+      {
+        "content": "The change of PV is before that of OP, does not meet the characteristics of stiction.",
+        "role": "assistant"
+      }
+    ],
+    "images": [
+      "Stiction_data/PAP6/PAP6_PV_SP_OP_t_norm_filtered_v3.jpg"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "content":"You need to judge whether there is Stiction by the image. The image has PV on the y-axis and OP on the x-axis. PV stands for process variable and OP stands for controller output. The typical feature of Stiction is loop trajectory",
+        "role":"system"
+      },
+      {
+        "content": "<image>This is PV-OP graph. Is there stiction?",
+        "role": "user"
+      },
+      {
+        "content": "Yes, there is stiction in this control loop.",
+        "role": "assistant"
+      },
+      {
+        "content": "Why, how do you judge?",
+        "role": "user"
+      },
+      {
+        "content": "In the PV-OP diagram, a typical loop trajectory is shown, and there is no positive linear relationship, indicating the existence of stiction.",
+        "role": "assistant"
+      }
+    ],
+    "images": [
+      "Stiction_data/PAP6/PAP6_OP_PV_raw_v3.jpg"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "content":"You need to judge whether there is Stiction by the image. The image has PV(blue line) and OP(orange line) on the y-axis and time on the x-axis. PV stands for process variable and OP stands for controller output. Typical feature of Stiction: When OP changes, PV does not respond immediately but remains at its original level. Once OP exceeds a certain threshold, PV suddenly jumps.",
+        "role":"system"
+      },
+      {
+        "content": "<image>This is PV&OP-t graph. Is there stiction?",
+        "role": "user"
+      },
+      {
+        "content": "No, there is no stiction in this control loop.",
+        "role": "assistant"
+      },
+      {
+        "content": "Why, how do you judge?",
+        "role": "user"
+      },
+      {
+        "content": "The change of PV is before that of OP and there is some overlap， does not meet the characteristics of stiction.",
+        "role": "assistant"
+      }
+    ],
+    "images": [
+      "Stiction_data/CHEM74/CHEM74_PV_SP_OP_t_norm_filtered_v3.jpg"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "content":"You need to judge whether there is Stiction by the image. The image has PV on the y-axis and OP on the x-axis. PV stands for process variable and OP stands for controller output. The typical feature of Stiction is loop trajectory",
+        "role":"system"
+      },
+      {
+        "content": "<image>This is PV-OP graph. Is there stiction?",
+        "role": "user"
+      },
+      {
+        "content": "No, there is no stiction in this control loop.",
+        "role": "assistant"
+      },
+      {
+        "content": "Why, how do you judge?",
+        "role": "user"
+      },
+      {
+        "content": "In the PV-OP diagram, there is no loop trajectory. It does not meet the characteristics of stiction.",
+        "role": "assistant"
+      }
+    ],
+    "images": [
+      "Stiction_data/CHEM74/CHEM74_OP_PV_raw_v3.jpg"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "content":"You need to judge whether there is Stiction by the image. The image has PV(blue line) and OP(orange line) on the y-axis and time on the x-axis. PV stands for process variable and OP stands for controller output. Typical feature of Stiction: When OP changes, PV does not respond immediately but remains at its original level. Once OP exceeds a certain threshold, PV suddenly jumps.",
+        "role":"system"
+      },
+      {
+        "content": "<image>This is PV&OP-t graph. Is there stiction?",
+        "role": "user"
+      },
+      {
+        "content": "No, there is no stiction in this control loop.",
+        "role": "assistant"
+      },
+      {
+        "content": "Why, how do you judge?",
+        "role": "user"
+      },
+      {
+        "content": "The change of PV is before that of OP and there is some overlap， does not meet the characteristics of stiction.",
+        "role": "assistant"
+      }
+    ],
+    "images": [
+      "Stiction_data/CHEM75/CHEM75_PV_SP_OP_t_norm_filtered_v3.jpg"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "content":"You need to judge whether there is Stiction by the image. The image has PV on the y-axis and OP on the x-axis. PV stands for process variable and OP stands for controller output. The typical feature of Stiction is loop trajectory",
+        "role":"system"
+      },
+      {
+        "content": "<image>This is PV-OP graph. Is there stiction?",
+        "role": "user"
+      },
+      {
+        "content": "No, there is no stiction in this control loop.",
+        "role": "assistant"
+      },
+      {
+        "content": "Why, how do you judge?",
+        "role": "user"
+      },
+      {
+        "content": "In the PV-OP diagram, there is no loop trajectory. It does not meet the characteristics of stiction.",
+        "role": "assistant"
+      }
+    ],
+    "images": [
+      "Stiction_data/CHEM75/CHEM75_OP_PV_raw_v3.jpg"
+    ]
+  },
+
+  {
+    "messages": [
+      {
+        "content":"You need to judge whether there is Stiction by the image. The image has PV(blue line) and OP(orange line) on the y-axis and time on the x-axis. PV stands for process variable and OP stands for controller output. Typical feature of Stiction: When OP changes, PV does not respond immediately but remains at its original level. Once OP exceeds a certain threshold, PV suddenly jumps.",
+        "role":"system"
+      },
+      {
+        "content": "<image>This is PV&OP-t graph. Is there stiction?",
+        "role": "user"
+      },
+      {
+        "content": "No, there is no stiction in this control loop.",
+        "role": "assistant"
+      },
+      {
+        "content": "Why, how do you judge?",
+        "role": "user"
+      },
+      {
+        "content": "PV changes synchronously with OP, and PV does not lag behind OP， does not meet the characteristics of stiction.",
+        "role": "assistant"
+      }
+    ],
+    "images": [
+      "Stiction_data/CHEM76/CHEM76_PV_SP_OP_t_norm_filtered_v3.jpg"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "content":"You need to judge whether there is Stiction by the image. The image has PV on the y-axis and OP on the x-axis. PV stands for process variable and OP stands for controller output. The typical feature of Stiction is loop trajectory",
+        "role":"system"
+      },
+      {
+        "content": "<image>This is PV-OP graph. Is there stiction?",
+        "role": "user"
+      },
+      {
+        "content": "No, there is no stiction in this control loop.",
+        "role": "assistant"
+      },
+      {
+        "content": "Why, how do you judge?",
+        "role": "user"
+      },
+      {
+        "content": "In the PV-OP diagram, there is no hysteresis loop. It does not meet the characteristics of stiction.",
+        "role": "assistant"
+      }
+    ],
+    "images": [
+      "Stiction_data/CHEM76/CHEM76_OP_PV_raw_v3.jpg"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "content":"You need to judge whether there is Stiction by the image. The image has PV(blue line) and OP(orange line) on the y-axis and time on the x-axis. PV stands for process variable and OP stands for controller output. Typical feature of Stiction: When OP changes, PV does not respond immediately but remains at its original level. Once OP exceeds a certain threshold, PV suddenly jumps.",
+        "role":"system"
+      },
+      {
+        "content": "<image>This is PV&OP-t graph. Is there stiction?",
+        "role": "user"
+      },
+      {
+        "content": "Sorry, the data in this graph is too dense, please capture a shorter period of time or provide a PV-OP image.",
+        "role": "assistant"
+      }
+    ],
+    "images": [
+      "Stiction_data/CHEM30/CHEM30_PV_SP_OP_t_norm_filtered_v3.jpg"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "content":"You need to judge whether there is Stiction by the image. The image has PV on the y-axis and OP on the x-axis. PV stands for process variable and OP stands for controller output. The typical feature of Stiction is loop trajectory",
+        "role":"system"
+      },
+      {
+        "content": "<image>This is PV-OP graph. Is there stiction?",
+        "role": "user"
+      },
+      {
+        "content": "The points in the figure are so dense that it is difficult to judge accurately. It looks like it is formed by the superposition of multiple hysteresis loops.",
+        "role": "assistant"
+      }
+
+    ],
+    "images": [
+      "Stiction_data/CHEM30/CHEM30_OP_PV_raw_v3.jpg"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "content":"You need to judge whether there is Stiction by the image. The image has PV(blue line) and OP(orange line) on the y-axis and time on the x-axis. PV stands for process variable and OP stands for controller output. Typical feature of Stiction: When OP changes, PV does not respond immediately but remains at its original level. Once OP exceeds a certain threshold, PV suddenly jumps.",
+        "role":"system"
+      },
+      {
+        "content": "<image>This is PV&OP-t graph. Is there stiction?",
+        "role": "user"
+      },
+      {
+        "content": "Sorry, the data in this graph is too dense, please capture a shorter period of time or provide a PV-OP image.",
+        "role": "assistant"
+      }
+    ],
+    "images": [
+      "Stiction_data/CHEM31/CHEM31_PV_SP_OP_t_norm_filtered_v3.jpg"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "content":"You need to judge whether there is Stiction by the image. The image has PV on the y-axis and OP on the x-axis. PV stands for process variable and OP stands for controller output. The typical feature of Stiction is loop trajectory",
+        "role":"system"
+      },
+      {
+        "content": "<image>This is PV-OP graph. Is there stiction?",
+        "role": "user"
+      },
+      {
+        "content": "No, there is no stiction in this control loop.",
+        "role": "assistant"
+      },
+      {
+        "content": "Why, how do you judge?",
+        "role": "user"
+      },
+      {
+        "content": "Because there is no obvious hysteresis loop",
+        "role": "assistant"
+      }
+    ],
+    "images": [
+      "Stiction_data/CHEM31/CHEM31_OP_PV_raw_v3.jpg"
+    ]
+  }
+]

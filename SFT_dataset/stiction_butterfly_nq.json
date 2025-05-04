@@ -1,0 +1,1461 @@
+[
+
+  {
+    "messages": [
+      {
+        "content":"You need to detect stiction by the image provided. The characteristic of stiction is a butterfly-like shape in the graph, and the more similar it is to the butterfly shape, the more severe of stiction.",
+        "role":"system"
+      },
+      {
+        "content": "<image>Is there stiction in the control loop?",
+        "role": "user"
+      },
+      {
+        "content": "Yes, there is stiction in this control loop.",
+        "role": "assistant"
+      },
+      {
+        "content": "Why? How do you judge?",
+        "role": "user"
+      },
+      {
+        "content": "The butterfly shape can be observed in the image.",
+        "role": "assistant"
+      }
+    ],
+    "images": [
+      "/home/pzk29/XTC/LLaMA-Factory/data/Stiction_fly/fig/BAS6/BAS6_norm_fly_l.jpg"
+    ]
+  },
+
+  {
+    "messages": [
+      {
+        "content":"You need to detect stiction by the image provided. The characteristic of stiction is a butterfly-like shape in the graph, and the more similar it is to the butterfly shape, the more severe of stiction.",
+        "role":"system"
+      },
+      {
+        "content": "<image>Is there stiction in the control loop?",
+        "role": "user"
+      },
+      {
+        "content": "Yes, there is stiction in this control loop.",
+        "role": "assistant"
+      },
+      {
+        "content": "Why? How do you judge?",
+        "role": "user"
+      },
+      {
+        "content": "The butterfly shape can be observed in the image.",
+        "role": "assistant"
+      }
+    ],
+    "images": [
+      "/home/pzk29/XTC/LLaMA-Factory/data/Stiction_fly/fig/BAS7/BAS7_norm_fly_l.jpg"
+    ]
+  },
+
+  {
+    "messages": [
+      {
+        "content":"You need to detect stiction by the image provided. The characteristic of stiction is a butterfly-like shape in the graph, and the more similar it is to the butterfly shape, the more severe of stiction.",
+        "role":"system"
+      },
+      {
+        "content": "<image>Is there stiction in the control loop?",
+        "role": "user"
+      },
+      {
+        "content": "No, there is no stiction in this control loop.",
+        "role": "assistant"
+      },
+      {
+        "content": "Why? How do you judge?",
+        "role": "user"
+      },
+      {
+        "content": "The butterfly shape cannot be observed in the image.",
+        "role": "assistant"
+      }
+    ],
+    "images": [
+      "/home/pzk29/XTC/LLaMA-Factory/data/Stiction_fly/fig/BAS8/BAS8_norm_fly_l.jpg"
+    ]
+  },
+
+
+  {
+    "messages": [
+      {
+        "content":"You need to detect stiction by the image provided. The characteristic of stiction is a butterfly-like shape in the graph, and the more similar it is to the butterfly shape, the more severe of stiction.",
+        "role":"system"
+      },
+      {
+        "content": "<image>Is there stiction in the control loop?",
+        "role": "user"
+      },
+      {
+        "content": "Yes, there is stiction in this control loop.",
+        "role": "assistant"
+      },
+      {
+        "content": "Why? How do you judge?",
+        "role": "user"
+      },
+      {
+        "content": "The butterfly shape can be observed in the image.",
+        "role": "assistant"
+      }
+    ],
+    "images": [
+      "/home/pzk29/XTC/LLaMA-Factory/data/Stiction_fly/fig/CHEM8/CHEM8_norm_fly_l.jpg"
+    ]
+  },
+
+  {
+    "messages": [
+      {
+        "content":"You need to detect stiction by the image provided. The characteristic of stiction is a butterfly-like shape in the graph, and the more similar it is to the butterfly shape, the more severe of stiction.",
+        "role":"system"
+      },
+      {
+        "content": "<image>Is there stiction in the control loop?",
+        "role": "user"
+      },
+      {
+        "content": "Yes, there is stiction in this control loop.",
+        "role": "assistant"
+      },
+      {
+        "content": "Why? How do you judge?",
+        "role": "user"
+      },
+      {
+        "content": "The butterfly shape can be observed in the image.",
+        "role": "assistant"
+      }
+    ],
+    "images": [
+      "/home/pzk29/XTC/LLaMA-Factory/data/Stiction_fly/fig/CHEM19/CHEM19_norm_fly_l.jpg"
+    ]
+  },
+
+
+  {
+    "messages": [
+      {
+        "content":"You need to detect stiction by the image provided. The characteristic of stiction is a butterfly-like shape in the graph, and the more similar it is to the butterfly shape, the more severe of stiction.",
+        "role":"system"
+      },
+      {
+        "content": "<image>Is there stiction in the control loop?",
+        "role": "user"
+      },
+      {
+        "content": "Yes, there is stiction in this control loop.",
+        "role": "assistant"
+      },
+      {
+        "content": "Why? How do you judge?",
+        "role": "user"
+      },
+      {
+        "content": "The butterfly shape can be observed in the image.",
+        "role": "assistant"
+      }
+    ],
+    "images": [
+      "/home/pzk29/XTC/LLaMA-Factory/data/Stiction_fly/fig/CHEM22/CHEM22_norm_fly_l.jpg"
+    ]
+  },
+
+
+
+  {
+    "messages": [
+      {
+        "content":"You need to detect stiction by the image provided. The characteristic of stiction is a butterfly-like shape in the graph, and the more similar it is to the butterfly shape, the more severe of stiction.",
+        "role":"system"
+      },
+      {
+        "content": "<image>Is there stiction in the control loop?",
+        "role": "user"
+      },
+      {
+        "content": "Yes, there is stiction in this control loop.",
+        "role": "assistant"
+      },
+      {
+        "content": "Why? How do you judge?",
+        "role": "user"
+      },
+      {
+        "content": "The butterfly shape can be observed in the image.",
+        "role": "assistant"
+      }
+    ],
+    "images": [
+      "/home/pzk29/XTC/LLaMA-Factory/data/Stiction_fly/fig/CHEM35/CHEM35_norm_fly_l.jpg"
+    ]
+  },
+
+  {
+    "messages": [
+      {
+        "content":"You need to detect stiction by the image provided. The characteristic of stiction is a butterfly-like shape in the graph, and the more similar it is to the butterfly shape, the more severe of stiction.",
+        "role":"system"
+      },
+      {
+        "content": "<image>Is there stiction in the control loop?",
+        "role": "user"
+      },
+      {
+        "content": "No, there is no stiction in this control loop.",
+        "role": "assistant"
+      },
+      {
+        "content": "Why? How do you judge?",
+        "role": "user"
+      },
+      {
+        "content": "The butterfly shape cannot be observed in the image.",
+        "role": "assistant"
+      }
+    ],
+    "images": [
+      "/home/pzk29/XTC/LLaMA-Factory/data/Stiction_fly/fig/CHEM36/CHEM36_norm_fly_l.jpg"
+    ]
+  },
+
+  {
+    "messages": [
+      {
+        "content":"You need to detect stiction by the image provided. The characteristic of stiction is a butterfly-like shape in the graph, and the more similar it is to the butterfly shape, the more severe of stiction.",
+        "role":"system"
+      },
+      {
+        "content": "<image>Is there stiction in the control loop?",
+        "role": "user"
+      },
+      {
+        "content": "No, there is no stiction in this control loop.",
+        "role": "assistant"
+      },
+      {
+        "content": "Why? How do you judge?",
+        "role": "user"
+      },
+      {
+        "content": "The butterfly shape cannot be observed in the image.",
+        "role": "assistant"
+      }
+    ],
+    "images": [
+      "/home/pzk29/XTC/LLaMA-Factory/data/Stiction_fly/fig/CHEM37/CHEM37_norm_fly_l.jpg"
+    ]
+  },
+
+  {
+    "messages": [
+      {
+        "content":"You need to detect stiction by the image provided. The characteristic of stiction is a butterfly-like shape in the graph, and the more similar it is to the butterfly shape, the more severe of stiction.",
+        "role":"system"
+      },
+      {
+        "content": "<image>Is there stiction in the control loop?",
+        "role": "user"
+      },
+      {
+        "content": "No, there is no stiction in this control loop.",
+        "role": "assistant"
+      },
+      {
+        "content": "Why? How do you judge?",
+        "role": "user"
+      },
+      {
+        "content": "The butterfly shape cannot be observed in the image.",
+        "role": "assistant"
+      }
+    ],
+    "images": [
+      "/home/pzk29/XTC/LLaMA-Factory/data/Stiction_fly/fig/CHEM39/CHEM39_norm_fly_l.jpg"
+    ]
+  },
+
+  {
+    "messages": [
+      {
+        "content":"You need to detect stiction by the image provided. The characteristic of stiction is a butterfly-like shape in the graph, and the more similar it is to the butterfly shape, the more severe of stiction.",
+        "role":"system"
+      },
+      {
+        "content": "<image>Is there stiction in the control loop?",
+        "role": "user"
+      },
+      {
+        "content": "No, there is no stiction in this control loop.",
+        "role": "assistant"
+      },
+      {
+        "content": "Why? How do you judge?",
+        "role": "user"
+      },
+      {
+        "content": "The butterfly shape cannot be observed in the image.",
+        "role": "assistant"
+      }
+    ],
+    "images": [
+      "/home/pzk29/XTC/LLaMA-Factory/data/Stiction_fly/fig/CHEM21/CHEM21_norm_fly_l.jpg"
+    ]
+  },
+
+  {
+    "messages": [
+      {
+        "content":"You need to detect stiction by the image provided. The characteristic of stiction is a butterfly-like shape in the graph, and the more similar it is to the butterfly shape, the more severe of stiction.",
+        "role":"system"
+      },
+      {
+        "content": "<image>Is there stiction in the control loop?",
+        "role": "user"
+      },
+      {
+        "content": "No, there is no stiction in this control loop.",
+        "role": "assistant"
+      },
+      {
+        "content": "Why? How do you judge?",
+        "role": "user"
+      },
+      {
+        "content": "The butterfly shape cannot be observed in the image.",
+        "role": "assistant"
+      }
+    ],
+    "images": [
+      "/home/pzk29/XTC/LLaMA-Factory/data/Stiction_fly/fig/CHEM71/CHEM71_norm_fly_l.jpg"
+    ]
+  },
+
+  {
+    "messages": [
+      {
+        "content":"You need to detect stiction by the image provided. The characteristic of stiction is a butterfly-like shape in the graph, and the more similar it is to the butterfly shape, the more severe of stiction.",
+        "role":"system"
+      },
+      {
+        "content": "<image>Is there stiction in the control loop?",
+        "role": "user"
+      },
+      {
+        "content": "Yes, there is stiction in this control loop.",
+        "role": "assistant"
+      },
+      {
+        "content": "Why? How do you judge?",
+        "role": "user"
+      },
+      {
+        "content": "The butterfly shape can be observed in the image.",
+        "role": "assistant"
+      }
+    ],
+    "images": [
+      "/home/pzk29/XTC/LLaMA-Factory/data/Stiction_fly/fig/PAP1/PAP1_norm_fly_l.jpg"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "content":"You need to detect stiction by the image provided. The characteristic of stiction is a butterfly-like shape in the graph, and the more similar it is to the butterfly shape, the more severe of stiction.",
+        "role":"system"
+      },
+      {
+        "content": "<image>Is there stiction in the control loop?",
+        "role": "user"
+      },
+      {
+        "content": "No, there is no stiction in this control loop.",
+        "role": "assistant"
+      },
+      {
+        "content": "Why? How do you judge?",
+        "role": "user"
+      },
+      {
+        "content": "The butterfly shape cannot be observed in the image.",
+        "role": "assistant"
+      }
+    ],
+    "images": [
+      "/home/pzk29/XTC/LLaMA-Factory/data/Stiction_fly/fig/MET1/MET1_norm_fly_l.jpg"
+    ]
+  },
+
+  {
+    "messages": [
+      {
+        "content":"You need to detect stiction by the image provided. The characteristic of stiction is a butterfly-like shape in the graph, and the more similar it is to the butterfly shape, the more severe of stiction.",
+        "role":"system"
+      },
+      {
+        "content": "<image>Is there stiction in the control loop?",
+        "role": "user"
+      },
+      {
+        "content": "No, there is no stiction in this control loop.",
+        "role": "assistant"
+      },
+      {
+        "content": "Why? How do you judge?",
+        "role": "user"
+      },
+      {
+        "content": "The butterfly shape cannot be observed in the image.",
+        "role": "assistant"
+      }
+    ],
+    "images": [
+      "/home/pzk29/XTC/LLaMA-Factory/data/Stiction_fly/fig/PAP3/PAP3_norm_fly_l.jpg"
+    ]
+  },
+
+  {
+    "messages": [
+      {
+        "content":"You need to detect stiction by the image provided. The characteristic of stiction is a butterfly-like shape in the graph, and the more similar it is to the butterfly shape, the more severe of stiction.",
+        "role":"system"
+      },
+      {
+        "content": "<image>Is there stiction in the control loop?",
+        "role": "user"
+      },
+      {
+        "content": "No, there is no stiction in this control loop.",
+        "role": "assistant"
+      },
+      {
+        "content": "Why? How do you judge?",
+        "role": "user"
+      },
+      {
+        "content": "The butterfly shape cannot be observed in the image.",
+        "role": "assistant"
+      }
+    ],
+    "images": [
+      "/home/pzk29/XTC/LLaMA-Factory/data/Stiction_fly/fig/PAP7/PAP7_norm_fly_l.jpg"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "content":"You need to detect stiction by the image provided. The characteristic of stiction is a butterfly-like shape in the graph, and the more similar it is to the butterfly shape, the more severe of stiction.",
+        "role":"system"
+      },
+      {
+        "content": "<image>Is there stiction in the control loop?",
+        "role": "user"
+      },
+      {
+        "content": "No, there is no stiction in this control loop.",
+        "role": "assistant"
+      },
+      {
+        "content": "Why? How do you judge?",
+        "role": "user"
+      },
+      {
+        "content": "The butterfly shape cannot be observed in the image.",
+        "role": "assistant"
+      }
+    ],
+    "images": [
+      "/home/pzk29/XTC/LLaMA-Factory/data/Stiction_fly/fig/CHEM74/CHEM74_norm_fly_l.jpg"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "content":"You need to detect stiction by the image provided. The characteristic of stiction is a butterfly-like shape in the graph, and the more similar it is to the butterfly shape, the more severe of stiction.",
+        "role":"system"
+      },
+      {
+        "content": "<image>Is there stiction in the control loop?",
+        "role": "user"
+      },
+      {
+        "content": "No, there is no stiction in this control loop.",
+        "role": "assistant"
+      },
+      {
+        "content": "Why? How do you judge?",
+        "role": "user"
+      },
+      {
+        "content": "The butterfly shape cannot be observed in the image.",
+        "role": "assistant"
+      }
+    ],
+    "images": [
+      "/home/pzk29/XTC/LLaMA-Factory/data/Stiction_fly/fig/CHEM45/CHEM45_norm_fly_l.jpg"
+    ]
+  },
+
+  {
+    "messages": [
+      {
+        "content":"You need to detect stiction by the image provided. The characteristic of stiction is a butterfly-like shape in the graph, and the more similar it is to the butterfly shape, the more severe of stiction.",
+        "role":"system"
+      },
+      {
+        "content": "<image>Is there stiction in the control loop?",
+        "role": "user"
+      },
+      {
+        "content": "No, there is no stiction in this control loop.",
+        "role": "assistant"
+      },
+      {
+        "content": "Why? How do you judge?",
+        "role": "user"
+      },
+      {
+        "content": "The butterfly shape cannot be observed in the image.",
+        "role": "assistant"
+      }
+    ],
+    "images": [
+      "/home/pzk29/XTC/LLaMA-Factory/data/Stiction_fly/fig/CHEM46/CHEM46_norm_fly_l.jpg"
+    ]
+  },
+
+  {
+    "messages": [
+      {
+        "content":"You need to detect stiction by the image provided. The characteristic of stiction is a butterfly-like shape in the graph, and the more similar it is to the butterfly shape, the more severe of stiction.",
+        "role":"system"
+      },
+      {
+        "content": "<image>Is there stiction in the control loop?",
+        "role": "user"
+      },
+      {
+        "content": "No, there is no stiction in this control loop.",
+        "role": "assistant"
+      },
+      {
+        "content": "Why? How do you judge?",
+        "role": "user"
+      },
+      {
+        "content": "The butterfly shape cannot be observed in the image.",
+        "role": "assistant"
+      }
+    ],
+    "images": [
+      "/home/pzk29/XTC/LLaMA-Factory/data/Stiction_fly/fig/CHEM47/CHEM47_norm_fly_l.jpg"
+    ]
+  },
+
+  {
+    "messages": [
+      {
+        "content":"You need to detect stiction by the image provided. The characteristic of stiction is a butterfly-like shape in the graph, and the more similar it is to the butterfly shape, the more severe of stiction.",
+        "role":"system"
+      },
+      {
+        "content": "<image>Is there stiction in the control loop?",
+        "role": "user"
+      },
+      {
+        "content": "No, there is no stiction in this control loop.",
+        "role": "assistant"
+      },
+      {
+        "content": "Why? How do you judge?",
+        "role": "user"
+      },
+      {
+        "content": "The butterfly shape cannot be observed in the image.",
+        "role": "assistant"
+      }
+    ],
+    "images": [
+      "/home/pzk29/XTC/LLaMA-Factory/data/Stiction_fly/fig/CHEM48/CHEM48_norm_fly_l.jpg"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "content":"You need to detect stiction by the image provided. The characteristic of stiction is a butterfly-like shape in the graph, and the more similar it is to the butterfly shape, the more severe of stiction.",
+        "role":"system"
+      },
+      {
+        "content": "<image>Is there stiction in the control loop?",
+        "role": "user"
+      },
+      {
+        "content": "No, there is no stiction in this control loop.",
+        "role": "assistant"
+      },
+      {
+        "content": "Why? How do you judge?",
+        "role": "user"
+      },
+      {
+        "content": "The butterfly shape cannot be observed in the image.",
+        "role": "assistant"
+      }
+    ],
+    "images": [
+      "/home/pzk29/XTC/LLaMA-Factory/data/Stiction_fly/fig/CHEM51/CHEM51_norm_fly_l.jpg"
+    ]
+  },
+
+  {
+    "messages": [
+      {
+        "content":"You need to detect stiction by the image provided. The characteristic of stiction is a butterfly-like shape in the graph, and the more similar it is to the butterfly shape, the more severe of stiction.",
+        "role":"system"
+      },
+      {
+        "content": "<image>Is there stiction in the control loop?",
+        "role": "user"
+      },
+      {
+        "content": "No, there is no stiction in this control loop.",
+        "role": "assistant"
+      },
+      {
+        "content": "Why? How do you judge?",
+        "role": "user"
+      },
+      {
+        "content": "The butterfly shape cannot be observed in the image.",
+        "role": "assistant"
+      }
+    ],
+    "images": [
+      "/home/pzk29/XTC/LLaMA-Factory/data/Stiction_fly/fig/CHEM52/CHEM52_norm_fly_l.jpg"
+    ]
+  },
+
+  {
+    "messages": [
+      {
+        "content":"You need to detect stiction by the image provided. The characteristic of stiction is a butterfly-like shape in the graph, and the more similar it is to the butterfly shape, the more severe of stiction.",
+        "role":"system"
+      },
+      {
+        "content": "<image>Is there stiction in the control loop?",
+        "role": "user"
+      },
+      {
+        "content": "No, there is no stiction in this control loop.",
+        "role": "assistant"
+      },
+      {
+        "content": "Why? How do you judge?",
+        "role": "user"
+      },
+      {
+        "content": "The butterfly shape cannot be observed in the image.",
+        "role": "assistant"
+      }
+    ],
+    "images": [
+      "/home/pzk29/XTC/LLaMA-Factory/data/Stiction_fly/fig/CHEM53/CHEM53_norm_fly_l.jpg"
+    ]
+  },
+
+
+  {
+    "messages": [
+      {
+        "content":"You need to detect stiction by the image provided. The characteristic of stiction is a butterfly-like shape in the graph, and the more similar it is to the butterfly shape, the more severe of stiction.",
+        "role":"system"
+      },
+      {
+        "content": "<image>Is there stiction in the control loop?",
+        "role": "user"
+      },
+      {
+        "content": "No, there is no stiction in this control loop.",
+        "role": "assistant"
+      },
+      {
+        "content": "Why? How do you judge?",
+        "role": "user"
+      },
+      {
+        "content": "The butterfly shape cannot be observed in the image.",
+        "role": "assistant"
+      }
+    ],
+    "images": [
+      "/home/pzk29/XTC/LLaMA-Factory/data/Stiction_fly/fig/CHEM76/CHEM76_norm_fly_l.jpg"
+    ]
+  },
+    {
+    "messages": [
+      {
+        "content":"You need to detect stiction by the image provided. The characteristic of stiction is a butterfly-like shape in the graph, and the more similar it is to the butterfly shape, the more severe of stiction.",
+        "role":"system"
+      },
+      {
+        "content": "<image>Is there stiction in the control loop?",
+        "role": "user"
+      },
+      {
+        "content": "No, there is no stiction in this control loop.",
+        "role": "assistant"
+      },
+      {
+        "content": "Why? How do you judge?",
+        "role": "user"
+      },
+      {
+        "content": "The butterfly shape cannot be observed in the image.",
+        "role": "assistant"
+      }
+    ],
+    "images": [
+      "/home/pzk29/XTC/LLaMA-Factory/data/Stiction_fly/fig/CHEM61/CHEM61_norm_fly_l.jpg"
+    ]
+  },
+
+  {
+    "messages": [
+      {
+        "content":"You need to detect stiction by the image provided. The characteristic of stiction is a butterfly-like shape in the graph, and the more similar it is to the butterfly shape, the more severe of stiction.",
+        "role":"system"
+      },
+      {
+        "content": "<image>Is there stiction in the control loop?",
+        "role": "user"
+      },
+      {
+        "content": "No, there is no stiction in this control loop.",
+        "role": "assistant"
+      },
+      {
+        "content": "Why? How do you judge?",
+        "role": "user"
+      },
+      {
+        "content": "The butterfly shape cannot be observed in the image.",
+        "role": "assistant"
+      }
+    ],
+    "images": [
+      "/home/pzk29/XTC/LLaMA-Factory/data/Stiction_fly/fig/CHEM62/CHEM62_norm_fly_l.jpg"
+    ]
+  },
+
+  {
+    "messages": [
+      {
+        "content":"You need to detect stiction by the image provided. The characteristic of stiction is a butterfly-like shape in the graph, and the more similar it is to the butterfly shape, the more severe of stiction.",
+        "role":"system"
+      },
+      {
+        "content": "<image>Is there stiction in the control loop?",
+        "role": "user"
+      },
+      {
+        "content": "No, there is no stiction in this control loop.",
+        "role": "assistant"
+      },
+      {
+        "content": "Why? How do you judge?",
+        "role": "user"
+      },
+      {
+        "content": "The butterfly shape cannot be observed in the image.",
+        "role": "assistant"
+      }
+    ],
+    "images": [
+      "/home/pzk29/XTC/LLaMA-Factory/data/Stiction_fly/fig/CHEM63/CHEM63_norm_fly_l.jpg"
+    ]
+  },
+
+
+  {
+    "messages": [
+      {
+        "content":"You need to detect stiction by the image provided. The characteristic of stiction is a butterfly-like shape in the graph, and the more similar it is to the butterfly shape, the more severe of stiction.",
+        "role":"system"
+      },
+      {
+        "content": "<image>Is there stiction in the control loop?",
+        "role": "user"
+      },
+      {
+        "content": "No, there is no stiction in this control loop.",
+        "role": "assistant"
+      },
+      {
+        "content": "Why? How do you judge?",
+        "role": "user"
+      },
+      {
+        "content": "The butterfly shape cannot be observed in the image.",
+        "role": "assistant"
+      }
+    ],
+    "images": [
+      "/home/pzk29/XTC/LLaMA-Factory/data/Stiction_fly/fig/BAS5/BAS5_norm_fly_l.jpg"
+    ]
+  },
+    
+
+  {
+    "messages": [
+      {
+        "content":"You need to detect stiction by the image provided. The characteristic of stiction is a butterfly-like shape in the graph, and the more similar it is to the butterfly shape, the more severe of stiction.",
+        "role":"system"
+      },
+      {
+        "content": "<image>Is there stiction in the control loop?",
+        "role": "user"
+      },
+      {
+        "content": "Yes, there is stiction in this control loop.",
+        "role": "assistant"
+      },
+      {
+        "content": "Why? How do you judge?",
+        "role": "user"
+      },
+      {
+        "content": "The butterfly shape can be observed in the image.",
+        "role": "assistant"
+      }
+    ],
+    "images": [
+      "/home/pzk29/XTC/LLaMA-Factory/data/Stiction_fly/fig/CHEM24/CHEM24_norm_fly_l.jpg"
+    ]
+  },
+   
+  {
+    "messages": [
+      {
+        "content":"You need to detect stiction by the image provided. The characteristic of stiction is a butterfly-like shape in the graph, and the more similar it is to the butterfly shape, the more severe of stiction.",
+        "role":"system"
+      },
+      {
+        "content": "<image>Is there stiction in the control loop?",
+        "role": "user"
+      },
+      {
+        "content": "No, there is no stiction in this control loop.",
+        "role": "assistant"
+      },
+      {
+        "content": "Why? How do you judge?",
+        "role": "user"
+      },
+      {
+        "content": "The butterfly shape cannot be observed in the image.",
+        "role": "assistant"
+      }
+    ],
+    "images": [
+      "/home/pzk29/XTC/LLaMA-Factory/data/Stiction_fly/fig/CHEM41/CHEM41_norm_fly_l.jpg"
+    ]
+  },
+    
+
+    
+  {
+    "messages": [
+      {
+        "content":"You need to detect stiction by the image provided. The characteristic of stiction is a butterfly-like shape in the graph, and the more similar it is to the butterfly shape, the more severe of stiction.",
+        "role":"system"
+      },
+      {
+        "content": "<image>Is there stiction in the control loop?",
+        "role": "user"
+      },
+      {
+        "content": "Yes, there is stiction in this control loop.",
+        "role": "assistant"
+      },
+      {
+        "content": "Why? How do you judge?",
+        "role": "user"
+      },
+      {
+        "content": "The butterfly shape can be observed in the image.",
+        "role": "assistant"
+      }
+    ],
+    "images": [
+      "/home/pzk29/XTC/LLaMA-Factory/data/Stiction_fly/fig/CHEM44/CHEM44_norm_fly_l.jpg"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "content":"You need to detect stiction by the image provided. The characteristic of stiction is a butterfly-like shape in the graph, and the more similar it is to the butterfly shape, the more severe of stiction.",
+        "role":"system"
+      },
+      {
+        "content": "<image>Is there stiction in the control loop?",
+        "role": "user"
+      },
+      {
+        "content": "Yes, there is stiction in this control loop.",
+        "role": "assistant"
+      },
+      {
+        "content": "Why? How do you judge?",
+        "role": "user"
+      },
+      {
+        "content": "The butterfly shape can be observed in the image.",
+        "role": "assistant"
+      }
+    ],
+    "images": [
+      "/home/pzk29/XTC/LLaMA-Factory/data/Stiction_fly/fig/CHEM25/CHEM25_norm_fly_l.jpg"
+    ]
+  },
+    
+
+  {
+    "messages": [
+      {
+        "content":"You need to detect stiction by the image provided. The characteristic of stiction is a butterfly-like shape in the graph, and the more similar it is to the butterfly shape, the more severe of stiction.",
+        "role":"system"
+      },
+      {
+        "content": "<image>Is there stiction in the control loop?",
+        "role": "user"
+      },
+      {
+        "content": "No, there is no stiction in this control loop.",
+        "role": "assistant"
+      },
+      {
+        "content": "Why? How do you judge?",
+        "role": "user"
+      },
+      {
+        "content": "The butterfly shape cannot be observed in the image.",
+        "role": "assistant"
+      }
+    ],
+    "images": [
+      "/home/pzk29/XTC/LLaMA-Factory/data/Stiction_fly/fig/CHEM56/CHEM56_norm_fly_l.jpg"
+    ]
+  },
+
+  {
+    "messages": [
+      {
+        "content":"You need to detect stiction by the image provided. The characteristic of stiction is a butterfly-like shape in the graph, and the more similar it is to the butterfly shape, the more severe of stiction.",
+        "role":"system"
+      },
+      {
+        "content": "<image>Is there stiction in the control loop?",
+        "role": "user"
+      },
+      {
+        "content": "No, there is no stiction in this control loop.",
+        "role": "assistant"
+      },
+      {
+        "content": "Why? How do you judge?",
+        "role": "user"
+      },
+      {
+        "content": "The butterfly shape cannot be observed in the image.",
+        "role": "assistant"
+      }
+    ],
+    "images": [
+      "/home/pzk29/XTC/LLaMA-Factory/data/Stiction_fly/fig/CHEM27/CHEM27_norm_fly_l.jpg"
+    ]
+  },
+    
+  {
+    "messages": [
+      {
+        "content":"You need to detect stiction by the image provided. The characteristic of stiction is a butterfly-like shape in the graph, and the more similar it is to the butterfly shape, the more severe of stiction.",
+        "role":"system"
+      },
+      {
+        "content": "<image>Is there stiction in the control loop?",
+        "role": "user"
+      },
+      {
+        "content": "No, there is no stiction in this control loop.",
+        "role": "assistant"
+      },
+      {
+        "content": "Why? How do you judge?",
+        "role": "user"
+      },
+      {
+        "content": "The butterfly shape cannot be observed in the image.",
+        "role": "assistant"
+      }
+    ],
+    "images": [
+      "/home/pzk29/XTC/LLaMA-Factory/data/Stiction_fly/fig/CHEM59/CHEM59_norm_fly_l.jpg"
+    ]
+  },
+ 
+  {
+    "messages": [
+      {
+        "content":"You need to detect stiction by the image provided. The characteristic of stiction is a butterfly-like shape in the graph, and the more similar it is to the butterfly shape, the more severe of stiction.",
+        "role":"system"
+      },
+      {
+        "content": "<image>Is there stiction in the control loop?",
+        "role": "user"
+      },
+      {
+        "content": "Yes, there is stiction in this control loop.",
+        "role": "assistant"
+      },
+      {
+        "content": "Why? How do you judge?",
+        "role": "user"
+      },
+      {
+        "content": "The butterfly shape can be observed in the image.",
+        "role": "assistant"
+      }
+    ],
+    "images": [
+      "/home/pzk29/XTC/LLaMA-Factory/data/Stiction_fly/fig/PAP13/PAP13_norm_fly_l.jpg"
+    ]
+  },
+  
+  {
+    "messages": [
+      {
+        "content":"You need to detect stiction by the image provided. The characteristic of stiction is a butterfly-like shape in the graph, and the more similar it is to the butterfly shape, the more severe of stiction.",
+        "role":"system"
+      },
+      {
+        "content": "<image>Is there stiction in the control loop?",
+        "role": "user"
+      },
+      {
+        "content": "Yes, there is stiction in this control loop.",
+        "role": "assistant"
+      },
+      {
+        "content": "Why? How do you judge?",
+        "role": "user"
+      },
+      {
+        "content": "The butterfly shape can be observed in the image.",
+        "role": "assistant"
+      }
+    ],
+    "images": [
+      "/home/pzk29/XTC/LLaMA-Factory/data/Stiction_fly/fig/POW2/POW2_norm_fly_l.jpg"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "content":"You need to detect stiction by the image provided. The characteristic of stiction is a butterfly-like shape in the graph, and the more similar it is to the butterfly shape, the more severe of stiction.",
+        "role":"system"
+      },
+      {
+        "content": "<image>Is there stiction in the control loop?",
+        "role": "user"
+      },
+      {
+        "content": "No, there is no stiction in this control loop.",
+        "role": "assistant"
+      },
+      {
+        "content": "Why? How do you judge?",
+        "role": "user"
+      },
+      {
+        "content": "The butterfly shape cannot be observed in the image.",
+        "role": "assistant"
+      }
+    ],
+    "images": [
+      "/home/pzk29/XTC/LLaMA-Factory/data/Stiction_fly/fig/POW3/POW3_norm_fly_l.jpg"
+    ]
+  },
+
+  {
+    "messages": [
+      {
+        "content":"You need to detect stiction by the image provided. The characteristic of stiction is a butterfly-like shape in the graph, and the more similar it is to the butterfly shape, the more severe of stiction.",
+        "role":"system"
+      },
+      {
+        "content": "<image>Is there stiction in the control loop?",
+        "role": "user"
+      },
+      {
+        "content": "Yes, there is stiction in this control loop.",
+        "role": "assistant"
+      },
+      {
+        "content": "Why? How do you judge?",
+        "role": "user"
+      },
+      {
+        "content": "The butterfly shape can be observed in the image.",
+        "role": "assistant"
+      }
+    ],
+    "images": [
+      "/home/pzk29/XTC/LLaMA-Factory/data/Stiction_fly/fig/POW4/POW4_norm_fly_l.jpg"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "content":"You need to detect stiction by the image provided. The characteristic of stiction is a butterfly-like shape in the graph, and the more similar it is to the butterfly shape, the more severe of stiction.",
+        "role":"system"
+      },
+      {
+        "content": "<image>Is there stiction in the control loop?",
+        "role": "user"
+      },
+      {
+        "content": "No, there is no stiction in this control loop.",
+        "role": "assistant"
+      },
+      {
+        "content": "Why? How do you judge?",
+        "role": "user"
+      },
+      {
+        "content": "The butterfly shape cannot be observed in the image.",
+        "role": "assistant"
+      }
+    ],
+    "images": [
+      "/home/pzk29/XTC/LLaMA-Factory/data/Stiction_fly/fig/POW5/POW5_norm_fly_l.jpg"
+    ]
+  },
+
+
+  {
+    "messages": [
+      {
+        "content":"You need to detect stiction by the image provided. The characteristic of stiction is a butterfly-like shape in the graph, and the more similar it is to the butterfly shape, the more severe of stiction.",
+        "role":"system"
+      },
+      {
+        "content": "<image>Is there stiction in the control loop?",
+        "role": "user"
+      },
+      {
+        "content": "No, there is no stiction in this control loop.",
+        "role": "assistant"
+      },
+      {
+        "content": "Why? How do you judge?",
+        "role": "user"
+      },
+      {
+        "content": "The butterfly shape cannot be observed in the image.",
+        "role": "assistant"
+      }
+    ],
+    "images": [
+      "/home/pzk29/XTC/LLaMA-Factory/data/Stiction_fly/fig/CHEM67/CHEM67_norm_fly_l.jpg"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "content":"You need to detect stiction by the image provided. The characteristic of stiction is a butterfly-like shape in the graph, and the more similar it is to the butterfly shape, the more severe of stiction.",
+        "role":"system"
+      },
+      {
+        "content": "<image>Is there stiction in the control loop?",
+        "role": "user"
+      },
+      {
+        "content": "No, there is no stiction in this control loop.",
+        "role": "assistant"
+      },
+      {
+        "content": "Why? How do you judge?",
+        "role": "user"
+      },
+      {
+        "content": "The butterfly shape cannot be observed in the image.",
+        "role": "assistant"
+      }
+    ],
+    "images": [
+      "/home/pzk29/XTC/LLaMA-Factory/data/Stiction_fly/fig/CHEM64/CHEM64_norm_fly_l.jpg"
+    ]
+  },
+
+
+  {
+    "messages": [
+      {
+        "content":"You need to detect stiction by the image provided. The characteristic of stiction is a butterfly-like shape in the graph, and the more similar it is to the butterfly shape, the more severe of stiction.",
+        "role":"system"
+      },
+      {
+        "content": "<image>Is there stiction in the control loop?",
+        "role": "user"
+      },
+      {
+        "content": "No, there is no stiction in this control loop.",
+        "role": "assistant"
+      },
+      {
+        "content": "Why? How do you judge?",
+        "role": "user"
+      },
+      {
+        "content": "The butterfly shape cannot be observed in the image.",
+        "role": "assistant"
+      }
+    ],
+    "images": [
+      "/home/pzk29/XTC/LLaMA-Factory/data/Stiction_fly/fig/CHEM65/CHEM65_norm_fly_l.jpg"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "content":"You need to detect stiction by the image provided. The characteristic of stiction is a butterfly-like shape in the graph, and the more similar it is to the butterfly shape, the more severe of stiction.",
+        "role":"system"
+      },
+      {
+        "content": "<image>Is there stiction in the control loop?",
+        "role": "user"
+      },
+      {
+        "content": "No, there is no stiction in this control loop.",
+        "role": "assistant"
+      },
+      {
+        "content": "Why? How do you judge?",
+        "role": "user"
+      },
+      {
+        "content": "The butterfly shape cannot be observed in the image.",
+        "role": "assistant"
+      }
+    ],
+    "images": [
+      "/home/pzk29/XTC/LLaMA-Factory/data/Stiction_fly/fig/CHEM66/CHEM66_norm_fly_l.jpg"
+    ]
+  },
+
+  {
+    "messages": [
+      {
+        "content":"You need to detect stiction by the image provided. The characteristic of stiction is a butterfly-like shape in the graph, and the more similar it is to the butterfly shape, the more severe of stiction.",
+        "role":"system"
+      },
+      {
+        "content": "<image>Is there stiction in the control loop?",
+        "role": "user"
+      },
+      {
+        "content": "No, there is no stiction in this control loop.",
+        "role": "assistant"
+      },
+      {
+        "content": "Why? How do you judge?",
+        "role": "user"
+      },
+      {
+        "content": "The butterfly shape cannot be observed in the image.",
+        "role": "assistant"
+      }
+    ],
+    "images": [
+      "/home/pzk29/XTC/LLaMA-Factory/data/Stiction_fly/fig/CHEM75/CHEM75_norm_fly_l.jpg"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "content":"You need to detect stiction by the image provided. The characteristic of stiction is a butterfly-like shape in the graph, and the more similar it is to the butterfly shape, the more severe of stiction.",
+        "role":"system"
+      },
+      {
+        "content": "<image>Is there stiction in the control loop?",
+        "role": "user"
+      },
+      {
+        "content": "No, there is no stiction in this control loop.",
+        "role": "assistant"
+      },
+      {
+        "content": "Why? How do you judge?",
+        "role": "user"
+      },
+      {
+        "content": "The butterfly shape cannot be observed in the image.",
+        "role": "assistant"
+      }
+    ],
+    "images": [
+      "/home/pzk29/XTC/LLaMA-Factory/data/Stiction_fly/fig/CHEM68/CHEM68_norm_fly_l.jpg"
+    ]
+  },
+  
+  {
+    "messages": [
+      {
+        "content":"You need to detect stiction by the image provided. The characteristic of stiction is a butterfly-like shape in the graph, and the more similar it is to the butterfly shape, the more severe of stiction.",
+        "role":"system"
+      },
+      {
+        "content": "<image>Is there stiction in the control loop?",
+        "role": "user"
+      },
+      {
+        "content": "No, there is no stiction in this control loop.",
+        "role": "assistant"
+      },
+      {
+        "content": "Why? How do you judge?",
+        "role": "user"
+      },
+      {
+        "content": "The butterfly shape cannot be observed in the image.",
+        "role": "assistant"
+      }
+    ],
+    "images": [
+      "/home/pzk29/XTC/LLaMA-Factory/data/Stiction_fly/fig/CHEM69/CHEM69_norm_fly_l.jpg"
+    ]
+  },
+     
+  {
+    "messages": [
+      {
+        "content":"You need to detect stiction by the image provided. The characteristic of stiction is a butterfly-like shape in the graph, and the more similar it is to the butterfly shape, the more severe of stiction.",
+        "role":"system"
+      },
+      {
+        "content": "<image>Is there stiction in the control loop?",
+        "role": "user"
+      },
+      {
+        "content": "Yes, there is stiction in this control loop.",
+        "role": "assistant"
+      },
+      {
+        "content": "Why? How do you judge?",
+        "role": "user"
+      },
+      {
+        "content": "The butterfly shape can be observed in the image.",
+        "role": "assistant"
+      }
+    ],
+    "images": [
+      "/home/pzk29/XTC/LLaMA-Factory/data/Stiction_fly/fig/CHEM70/CHEM70_norm_fly_l.jpg"
+    ]
+  },
+      
+  {
+    "messages": [
+      {
+        "content":"You need to detect stiction by the image provided. The characteristic of stiction is a butterfly-like shape in the graph, and the more similar it is to the butterfly shape, the more severe of stiction.",
+        "role":"system"
+      },
+      {
+        "content": "<image>Is there stiction in the control loop?",
+        "role": "user"
+      },
+      {
+        "content": "Yes, there is stiction in this control loop.",
+        "role": "assistant"
+      },
+      {
+        "content": "Why? How do you judge?",
+        "role": "user"
+      },
+      {
+        "content": "The butterfly shape can be observed in the image.",
+        "role": "assistant"
+      }
+    ],
+    "images": [
+      "/home/pzk29/XTC/LLaMA-Factory/data/Stiction_fly/fig/MET2/MET2_norm_fly_l.jpg"
+    ]
+  },
+
+  {
+    "messages": [
+      {
+        "content":"You need to detect stiction by the image provided. The characteristic of stiction is a butterfly-like shape in the graph, and the more similar it is to the butterfly shape, the more severe of stiction.",
+        "role":"system"
+      },
+      {
+        "content": "<image>Is there stiction in the control loop?",
+        "role": "user"
+      },
+      {
+        "content": "Yes, there is stiction in this control loop.",
+        "role": "assistant"
+      },
+      {
+        "content": "Why? How do you judge?",
+        "role": "user"
+      },
+      {
+        "content": "The butterfly shape can be observed in the image.",
+        "role": "assistant"
+      }
+    ],
+    "images": [
+      "/home/pzk29/XTC/LLaMA-Factory/data/Stiction_fly/fig/CHEM7/CHEM7_norm_fly_l.jpg"
+    ]
+  },
+
+  {
+    "messages": [
+      {
+        "content":"You need to detect stiction by the image provided. The characteristic of stiction is a butterfly-like shape in the graph, and the more similar it is to the butterfly shape, the more severe of stiction.",
+        "role":"system"
+      },
+      {
+        "content": "<image>Is there stiction in the control loop?",
+        "role": "user"
+      },
+      {
+        "content": "Yes, there is stiction in this control loop.",
+        "role": "assistant"
+      },
+      {
+        "content": "Why? How do you judge?",
+        "role": "user"
+      },
+      {
+        "content": "The butterfly shape can be observed in the image.",
+        "role": "assistant"
+      }
+    ],
+    "images": [
+      "/home/pzk29/XTC/LLaMA-Factory/data/Stiction_fly/fig/CHEM31/CHEM31_norm_fly_l.jpg"
+    ]
+  }
+    
+    
+]
