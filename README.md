@@ -50,7 +50,7 @@ CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7 NPROC_PER_NODE=8  nohup swift sft --torch_d
 
 ## 🔍 Inference
 
-To run inference on a single image or batch:
+To run inference on testing dataset:
 
 ```python
 CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7 swift infer   --adapters /home/shangchao/XTC/ms-swift/output/internvl2.5-38B-t-best/checkpoint-200    --infer_backend pt    --temperature 0.5   --max_new_tokens 2048    --val_dataset /home/shangchao/XTC/plant_data/pre-stiction_t_plant_test.json   --max_batch_size 1 
