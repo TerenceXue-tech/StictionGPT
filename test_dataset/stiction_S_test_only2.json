@@ -1,0 +1,505 @@
+[
+  {
+    "messages": [
+      {
+        "content":"You need to detect stiction by the image provided. If the shape in the graph is similar to the sigmoid or the letter S shape, it means that the Sticiton phenomenon exists. The more similar the shape is, the more severe the stiction is.",
+        "role":"system"
+      },
+      {
+        "content": "<image>Is there stiction in the control loop?",
+        "role": "user"
+      },
+      {
+        "content": "Yes, there is stiction in this control loop.",
+        "role": "assistant"
+      }
+    ],
+    "images": [
+      "/home/pzk29/XTC/LLaMA-Factory/data/fig_sigmoid2/CHEM1/CHEM1_norm_S2.jpg"
+    ]
+  },
+
+  {
+    "messages": [
+      {
+        "content":"You need to detect stiction by the image provided. If the shape in the graph is similar to the sigmoid or the letter S shape, it means that the Sticiton phenomenon exists. The more similar the shape is, the more severe the stiction is.",
+        "role":"system"
+      },
+      {
+        "content": "<image>Is there stiction in the control loop?",
+        "role": "user"
+      },
+      {
+        "content": "Yes, there is stiction in this control loop.",
+        "role": "assistant"
+      }
+    ],
+    "images": [
+      "/home/pzk29/XTC/LLaMA-Factory/data/fig_sigmoid2/CHEM2/CHEM2_norm_S2.jpg"
+    ]
+  },
+
+  {
+    "messages": [
+      {
+        "content":"You need to detect stiction by the image provided. If the shape in the graph is similar to the sigmoid or the letter S shape, it means that the Sticiton phenomenon exists. The more similar the shape is, the more severe the stiction is.",
+        "role":"system"
+      },
+      {
+        "content": "<image>Is there stiction in the control loop?",
+        "role": "user"
+      },
+      {
+        "content": "No, there is no stiction in this control loop.",
+        "role": "assistant"
+      }
+    ],
+    "images": [
+      "/home/pzk29/XTC/LLaMA-Factory/data/fig_sigmoid2/CHEM3/CHEM3_norm_S2.jpg"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "content":"You need to detect stiction by the image provided. If the shape in the graph is similar to the sigmoid or the letter S shape, it means that the Sticiton phenomenon exists. The more similar the shape is, the more severe the stiction is.",
+        "role":"system"
+      },
+      {
+        "content": "<image>Is there stiction in the control loop?",
+        "role": "user"
+      },
+      {
+        "content": "No, there is no stiction in this control loop.",
+        "role": "assistant"
+      }
+    ],
+    "images": [
+      "/home/pzk29/XTC/LLaMA-Factory/data/fig_sigmoid2/CHEM4/CHEM4_norm_S2.jpg"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "content":"You need to detect stiction by the image provided. If the shape in the graph is similar to the sigmoid or the letter S shape, it means that the Sticiton phenomenon exists. The more similar the shape is, the more severe the stiction is.",
+        "role":"system"
+      },
+      {
+        "content": "<image>Is there stiction in the control loop?",
+        "role": "user"
+      },
+      {
+        "content": "Yes, there is stiction in this control loop.",
+        "role": "assistant"
+      }
+    ],
+    "images": [
+      "/home/pzk29/XTC/LLaMA-Factory/data/fig_sigmoid2/CHEM5/CHEM5_norm_S2.jpg"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "content":"You need to detect stiction by the image provided. If the shape in the graph is similar to the sigmoid or the letter S shape, it means that the Sticiton phenomenon exists. The more similar the shape is, the more severe the stiction is.",
+        "role":"system"
+      },
+      {
+        "content": "<image>Is there stiction in the control loop?",
+        "role": "user"
+      },
+      {
+        "content": "Yes, there is stiction in this control loop.",
+        "role": "assistant"
+      }
+    ],
+    "images": [
+      "/home/pzk29/XTC/LLaMA-Factory/data/fig_sigmoid2/CHEM6/CHEM6_norm_S2.jpg"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "content":"You need to detect stiction by the image provided. If the shape in the graph is similar to the sigmoid or the letter S shape, it means that the Sticiton phenomenon exists. The more similar the shape is, the more severe the stiction is.",
+        "role":"system"
+      },
+      {
+        "content": "<image>Is there stiction in the control loop?",
+        "role": "user"
+      },
+      {
+        "content": "Yes, there is stiction in this control loop.",
+        "role": "assistant"
+      }
+    ],
+    "images": [
+      "/home/pzk29/XTC/LLaMA-Factory/data/fig_sigmoid2/CHEM10/CHEM10_norm_S2.jpg"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "content":"You need to detect stiction by the image provided. If the shape in the graph is similar to the sigmoid or the letter S shape, it means that the Sticiton phenomenon exists. The more similar the shape is, the more severe the stiction is.",
+        "role":"system"
+      },
+      {
+        "content": "<image>Is there stiction in the control loop?",
+        "role": "user"
+      },
+      {
+        "content": "Yes, there is stiction in this control loop.",
+        "role": "assistant"
+      }
+    ],
+    "images": [
+      "/home/pzk29/XTC/LLaMA-Factory/data/fig_sigmoid2/CHEM11/CHEM11_norm_S2.jpg"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "content":"You need to detect stiction by the image provided. If the shape in the graph is similar to the sigmoid or the letter S shape, it means that the Sticiton phenomenon exists. The more similar the shape is, the more severe the stiction is.",
+        "role":"system"
+      },
+      {
+        "content": "<image>Is there stiction in the control loop?",
+        "role": "user"
+      },
+      {
+        "content": "Yes, there is stiction in this control loop.",
+        "role": "assistant"
+      }
+    ],
+    "images": [
+      "/home/pzk29/XTC/LLaMA-Factory/data/fig_sigmoid2/CHEM12/CHEM12_norm_S2.jpg"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "content":"You need to detect stiction by the image provided. If the shape in the graph is similar to the sigmoid or the letter S shape, it means that the Sticiton phenomenon exists. The more similar the shape is, the more severe the stiction is.",
+        "role":"system"
+      },
+      {
+        "content": "<image>Is there stiction in the control loop?",
+        "role": "user"
+      },
+      {
+        "content": "No, there is no stiction in this control loop.",
+        "role": "assistant"
+      }
+    ],
+    "images": [
+      "/home/pzk29/XTC/LLaMA-Factory/data/fig_sigmoid2/CHEM13/CHEM13_norm_S2.jpg"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "content":"You need to detect stiction by the image provided. If the shape in the graph is similar to the sigmoid or the letter S shape, it means that the Sticiton phenomenon exists. The more similar the shape is, the more severe the stiction is.",
+        "role":"system"
+      },
+      {
+        "content": "<image>Is there stiction in the control loop?",
+        "role": "user"
+      },
+      {
+        "content": "No, there is no stiction in this control loop.",
+        "role": "assistant"
+      }
+    ],
+    "images": [
+      "/home/pzk29/XTC/LLaMA-Factory/data/fig_sigmoid2/CHEM14/CHEM14_norm_S2.jpg"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "content":"You need to detect stiction by the image provided. If the shape in the graph is similar to the sigmoid or the letter S shape, it means that the Sticiton phenomenon exists. The more similar the shape is, the more severe the stiction is.",
+        "role":"system"
+      },
+      {
+        "content": "<image>Is there stiction in the control loop?",
+        "role": "user"
+      },
+      {
+        "content": "No, there is no stiction in this control loop.",
+        "role": "assistant"
+      }
+    ],
+    "images": [
+      "/home/pzk29/XTC/LLaMA-Factory/data/fig_sigmoid2/CHEM16/CHEM16_norm_S2.jpg"
+    ]
+  },
+
+  {
+    "messages": [
+      {
+        "content":"You need to detect stiction by the image provided. If the shape in the graph is similar to the sigmoid or the letter S shape, it means that the Sticiton phenomenon exists. The more similar the shape is, the more severe the stiction is.",
+        "role":"system"
+      },
+      {
+        "content": "<image>Is there stiction in the control loop?",
+        "role": "user"
+      },
+      {
+        "content": "Yes, there is stiction in this control loop.",
+        "role": "assistant"
+      }
+    ],
+    "images": [
+      "/home/pzk29/XTC/LLaMA-Factory/data/fig_sigmoid2/CHEM23/CHEM23_norm_S2.jpg"
+    ]
+  },
+
+  {
+    "messages": [
+      {
+        "content":"You need to detect stiction by the image provided. If the shape in the graph is similar to the sigmoid or the letter S shape, it means that the Sticiton phenomenon exists. The more similar the shape is, the more severe the stiction is.",
+        "role":"system"
+      },
+      {
+        "content": "<image>Is there stiction in the control loop?",
+        "role": "user"
+      },
+      {
+        "content": "Yes, there is stiction in this control loop.",
+        "role": "assistant"
+      }
+    ],
+    "images": [
+      "/home/pzk29/XTC/LLaMA-Factory/data/fig_sigmoid2/CHEM24/CHEM24_norm_S2.jpg"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "content":"You need to detect stiction by the image provided. If the shape in the graph is similar to the sigmoid or the letter S shape, it means that the Sticiton phenomenon exists. The more similar the shape is, the more severe the stiction is.",
+        "role":"system"
+      },
+      {
+        "content": "<image>Is there stiction in the control loop?",
+        "role": "user"
+      },
+      {
+        "content": "Yes, there is stiction in this control loop.",
+        "role": "assistant"
+      }
+    ],
+    "images": [
+      "/home/pzk29/XTC/LLaMA-Factory/data/fig_sigmoid2/CHEM26/CHEM26_norm_S2.jpg"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "content":"You need to detect stiction by the image provided. If the shape in the graph is similar to the sigmoid or the letter S shape, it means that the Sticiton phenomenon exists. The more similar the shape is, the more severe the stiction is.",
+        "role":"system"
+      },
+      {
+        "content": "<image>Is there stiction in the control loop?",
+        "role": "user"
+      },
+      {
+        "content": "Yes, there is stiction in this control loop.",
+        "role": "assistant"
+      }
+    ],
+    "images": [
+      "/home/pzk29/XTC/LLaMA-Factory/data/fig_sigmoid2/CHEM29/CHEM29_norm_S2.jpg"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "content":"You need to detect stiction by the image provided. If the shape in the graph is similar to the sigmoid or the letter S shape, it means that the Sticiton phenomenon exists. The more similar the shape is, the more severe the stiction is.",
+        "role":"system"
+      },
+      {
+        "content": "<image>Is there stiction in the control loop?",
+        "role": "user"
+      },
+      {
+        "content": "Yes, there is stiction in this control loop.",
+        "role": "assistant"
+      }
+    ],
+    "images": [
+      "/home/pzk29/XTC/LLaMA-Factory/data/fig_sigmoid2/CHEM32/CHEM32_norm_S2.jpg"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "content":"You need to detect stiction by the image provided. If the shape in the graph is similar to the sigmoid or the letter S shape, it means that the Sticiton phenomenon exists. The more similar the shape is, the more severe the stiction is.",
+        "role":"system"
+      },
+      {
+        "content": "<image>Is there stiction in the control loop?",
+        "role": "user"
+      },
+      {
+        "content": "No, there is no stiction in this control loop.",
+        "role": "assistant"
+      }
+    ],
+    "images": [
+      "/home/pzk29/XTC/LLaMA-Factory/data/fig_sigmoid2/CHEM33/CHEM33_norm_S2.jpg"
+    ]
+  },
+
+  {
+    "messages": [
+      {
+        "content":"You need to detect stiction by the image provided. If the shape in the graph is similar to the sigmoid or the letter S shape, it means that the Sticiton phenomenon exists. The more similar the shape is, the more severe the stiction is.",
+        "role":"system"
+      },
+      {
+        "content": "<image>Is there stiction in the control loop?",
+        "role": "user"
+      },
+      {
+        "content": "No, there is no stiction in this control loop.",
+        "role": "assistant"
+      }
+    ],
+    "images": [
+      "/home/pzk29/XTC/LLaMA-Factory/data/fig_sigmoid2/CHEM34/CHEM34_norm_S2.jpg"
+    ]
+  },
+
+  {
+    "messages": [
+      {
+        "content":"You need to detect stiction by the image provided. If the shape in the graph is similar to the sigmoid or the letter S shape, it means that the Sticiton phenomenon exists. The more similar the shape is, the more severe the stiction is.",
+        "role":"system"
+      },
+      {
+        "content": "<image>Is there stiction in the control loop?",
+        "role": "user"
+      },
+      {
+        "content": "No, there is no stiction in this control loop.",
+        "role": "assistant"
+      }
+    ],
+    "images": [
+      "/home/pzk29/XTC/LLaMA-Factory/data/fig_sigmoid2/CHEM58/CHEM58_norm_S2.jpg"
+    ]
+  },
+
+
+  {
+    "messages": [
+      {
+        "content":"You need to detect stiction by the image provided. If the shape in the graph is similar to the sigmoid or the letter S shape, it means that the Sticiton phenomenon exists. The more similar the shape is, the more severe the stiction is.",
+        "role":"system"
+      },
+      {
+        "content": "<image>Is there stiction in the control loop?",
+        "role": "user"
+      },
+      {
+        "content": "Yes, there is stiction in this control loop.",
+        "role": "assistant"
+      }
+    ],
+    "images": [
+      "/home/pzk29/XTC/LLaMA-Factory/data/fig_sigmoid2/MIN1/MIN1_norm_S2.jpg"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "content":"You need to detect stiction by the image provided. If the shape in the graph is similar to the sigmoid or the letter S shape, it means that the Sticiton phenomenon exists. The more similar the shape is, the more severe the stiction is.",
+        "role":"system"
+      },
+      {
+        "content": "<image>Is there stiction in the control loop?",
+        "role": "user"
+      },
+      {
+        "content": "Yes, there is stiction in this control loop.",
+        "role": "assistant"
+      }
+    ],
+    "images": [
+      "/home/pzk29/XTC/LLaMA-Factory/data/fig_sigmoid2/PAP2/PAP2_norm_S2.jpg"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "content":"You need to detect stiction by the image provided. If the shape in the graph is similar to the sigmoid or the letter S shape, it means that the Sticiton phenomenon exists. The more similar the shape is, the more severe the stiction is.",
+        "role":"system"
+      },
+      {
+        "content": "<image>Is there stiction in the control loop?",
+        "role": "user"
+      },
+      {
+        "content": "No, there is no stiction in this control loop.",
+        "role": "assistant"
+      }
+    ],
+    "images": [
+      "/home/pzk29/XTC/LLaMA-Factory/data/fig_sigmoid2/PAP4/PAP4_norm_S2.jpg"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "content":"You need to detect stiction by the image provided. If the shape in the graph is similar to the sigmoid or the letter S shape, it means that the Sticiton phenomenon exists. The more similar the shape is, the more severe the stiction is.",
+        "role":"system"
+      },
+      {
+        "content": "<image>Is there stiction in the control loop?",
+        "role": "user"
+      },
+      {
+        "content": "Yes, there is stiction in this control loop.",
+        "role": "assistant"
+      }
+    ],
+    "images": [
+      "/home/pzk29/XTC/LLaMA-Factory/data/fig_sigmoid2/PAP5/PAP5_norm_S2.jpg"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "content":"You need to detect stiction by the image provided. If the shape in the graph is similar to the sigmoid or the letter S shape, it means that the Sticiton phenomenon exists. The more similar the shape is, the more severe the stiction is.",
+        "role":"system"
+      },
+      {
+        "content": "<image>Is there stiction in the control loop?",
+        "role": "user"
+      },
+      {
+        "content": "No, there is no stiction in this control loop.",
+        "role": "assistant"
+      }
+    ],
+    "images": [
+      "/home/pzk29/XTC/LLaMA-Factory/data/fig_sigmoid2/PAP7/PAP7_norm_S2.jpg"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "content":"You need to detect stiction by the image provided. If the shape in the graph is similar to the sigmoid or the letter S shape, it means that the Sticiton phenomenon exists. The more similar the shape is, the more severe the stiction is.",
+        "role":"system"
+      },
+      {
+        "content": "<image>Is there stiction in the control loop?",
+        "role": "user"
+      },
+      {
+        "content": "No, there is no stiction in this control loop.",
+        "role": "assistant"
+      }
+    ],
+    "images": [
+      "/home/pzk29/XTC/LLaMA-Factory/data/fig_sigmoid2/PAP9/PAP9_norm_S2.jpg"
+    ]
+  }
+
+]

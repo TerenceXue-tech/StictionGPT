@@ -1,0 +1,575 @@
+[
+
+  {
+    "messages": [
+      {
+        "content":"You need to detect stiction in control loop by three images provided. For the first image, the typical feature of stiction is the hysteresis loop trajectory. For the second image, the typical feature of stiction is sigmoid shape. For the third image, the typical feature of stiction is butterfly shape. If at least one image meets the feature, the control loop can be judged as stiction.",
+        "role":"system"
+      },
+      {
+        "content": "<image><image><image>Is there stiction in this control loop?",
+        "role": "user"
+      },
+      {
+        "content": "Yes, there is stiction in this control loop.",
+        "role": "assistant"
+      }
+    ],
+    "images": [
+      "/home/pzk29/XTC/LLaMA-Factory/data/Stiction_data/CHEM1/CHEM1_OP_PV_raw_v3.jpg", 
+      "/home/pzk29/XTC/LLaMA-Factory/data/fig_sigmoid2/CHEM1/CHEM1_norm_S2.jpg",
+      "/home/pzk29/XTC/LLaMA-Factory/data/Stiction_fly/fig/CHEM1/CHEM1_norm_fly_l.jpg"
+    ]
+  },
+
+  {
+    "messages": [
+      {
+        "content":"You need to detect stiction in control loop by three images provided. For the first image, the typical feature of stiction is the hysteresis loop trajectory. For the second image, the typical feature of stiction is sigmoid shape. For the third image, the typical feature of stiction is butterfly shape. If at least one image meets the feature, the control loop can be judged as stiction.",
+        "role":"system"
+      },
+      {
+        "content": "<image><image><image>Is there stiction in this control loop?",
+        "role": "user"
+      },
+      {
+        "content": "Yes, there is stiction in this control loop.",
+        "role": "assistant"
+      }
+    ],
+    "images": [
+      "/home/pzk29/XTC/LLaMA-Factory/data/Stiction_data/CHEM2/CHEM2_OP_PV_raw_v3.jpg", 
+      "/home/pzk29/XTC/LLaMA-Factory/data/fig_sigmoid2/CHEM2/CHEM2_norm_S2.jpg",
+      "/home/pzk29/XTC/LLaMA-Factory/data/Stiction_fly/fig/CHEM2/CHEM2_norm_fly_l.jpg"
+    ]
+  },
+
+  {
+    "messages": [
+      {
+        "content":"You need to detect stiction in control loop by three images provided. For the first image, the typical feature of stiction is the hysteresis loop trajectory. For the second image, the typical feature of stiction is sigmoid shape. For the third image, the typical feature of stiction is butterfly shape. If at least one image meets the feature, the control loop can be judged as stiction.",
+        "role":"system"
+      },
+      {
+        "content": "<image><image><image>Is there stiction in this control loop?",
+        "role": "user"
+      },
+      {
+        "content": "No, there is no stiction in this control loop.",
+        "role": "assistant"
+      }
+    ],
+    "images": [
+      "/home/pzk29/XTC/LLaMA-Factory/data/Stiction_data/CHEM3/CHEM3_OP_PV_raw_v3.jpg", 
+      "/home/pzk29/XTC/LLaMA-Factory/data/fig_sigmoid2/CHEM3/CHEM3_norm_S2.jpg",
+      "/home/pzk29/XTC/LLaMA-Factory/data/Stiction_fly/fig/CHEM3/CHEM3_norm_fly_l.jpg"
+    ]
+  },
+
+  {
+    "messages": [
+      {
+        "content":"You need to detect stiction in control loop by three images provided. For the first image, the typical feature of stiction is the hysteresis loop trajectory. For the second image, the typical feature of stiction is sigmoid shape. For the third image, the typical feature of stiction is butterfly shape. If at least one image meets the feature, the control loop can be judged as stiction.",
+        "role":"system"
+      },
+      {
+        "content": "<image><image><image>Is there stiction in this control loop?",
+        "role": "user"
+      },
+      {
+        "content": "No, there is no stiction in this control loop.",
+        "role": "assistant"
+      }
+    ],
+    "images": [
+      "/home/pzk29/XTC/LLaMA-Factory/data/Stiction_data/CHEM4/CHEM4_OP_PV_raw_v3.jpg", 
+      "/home/pzk29/XTC/LLaMA-Factory/data/fig_sigmoid2/CHEM4/CHEM4_norm_S2.jpg",
+      "/home/pzk29/XTC/LLaMA-Factory/data/Stiction_fly/fig/CHEM4/CHEM4_norm_fly_l.jpg"
+    ]
+  },
+
+  {
+    "messages": [
+      {
+        "content":"You need to detect stiction in control loop by three images provided. For the first image, the typical feature of stiction is the hysteresis loop trajectory. For the second image, the typical feature of stiction is sigmoid shape. For the third image, the typical feature of stiction is butterfly shape. If at least one image meets the feature, the control loop can be judged as stiction.",
+        "role":"system"
+      },
+      {
+        "content": "<image><image><image>Is there stiction in this control loop?",
+        "role": "user"
+      },
+      {
+        "content": "Yes, there is stiction in this control loop.",
+        "role": "assistant"
+      }
+    ],
+    "images": [
+      "/home/pzk29/XTC/LLaMA-Factory/data/Stiction_data/CHEM5/CHEM5_OP_PV_raw_v3.jpg", 
+      "/home/pzk29/XTC/LLaMA-Factory/data/fig_sigmoid2/CHEM5/CHEM5_norm_S2.jpg",
+      "/home/pzk29/XTC/LLaMA-Factory/data/Stiction_fly/fig/CHEM5/CHEM5_norm_fly_l.jpg"
+    ]
+  },
+
+  {
+    "messages": [
+      {
+        "content":"You need to detect stiction in control loop by three images provided. For the first image, the typical feature of stiction is the hysteresis loop trajectory. For the second image, the typical feature of stiction is sigmoid shape. For the third image, the typical feature of stiction is butterfly shape. If at least one image meets the feature, the control loop can be judged as stiction.",
+        "role":"system"
+      },
+      {
+        "content": "<image><image><image>Is there stiction in this control loop?",
+        "role": "user"
+      },
+      {
+        "content": "Yes, there is stiction in this control loop.",
+        "role": "assistant"
+      }
+    ],
+    "images": [
+      "/home/pzk29/XTC/LLaMA-Factory/data/Stiction_data/CHEM6/CHEM6_OP_PV_raw_v3.jpg", 
+      "/home/pzk29/XTC/LLaMA-Factory/data/fig_sigmoid2/CHEM6/CHEM6_norm_S2.jpg",
+      "/home/pzk29/XTC/LLaMA-Factory/data/Stiction_fly/fig/CHEM6/CHEM6_norm_fly_l.jpg"
+    ]
+  },
+
+  {
+    "messages": [
+      {
+        "content":"You need to detect stiction in control loop by three images provided. For the first image, the typical feature of stiction is the hysteresis loop trajectory. For the second image, the typical feature of stiction is sigmoid shape. For the third image, the typical feature of stiction is butterfly shape. If at least one image meets the feature, the control loop can be judged as stiction.",
+        "role":"system"
+      },
+      {
+        "content": "<image><image><image>Is there stiction in this control loop?",
+        "role": "user"
+      },
+      {
+        "content": "Yes, there is stiction in this control loop.",
+        "role": "assistant"
+      }
+    ],
+    "images": [
+      "/home/pzk29/XTC/LLaMA-Factory/data/Stiction_data/CHEM10/CHEM10_OP_PV_raw_v3.jpg", 
+      "/home/pzk29/XTC/LLaMA-Factory/data/fig_sigmoid2/CHEM10/CHEM10_norm_S2.jpg",
+      "/home/pzk29/XTC/LLaMA-Factory/data/Stiction_fly/fig/CHEM10/CHEM10_norm_fly_l.jpg"
+    ]
+  },
+
+  {
+    "messages": [
+      {
+        "content":"You need to detect stiction in control loop by three images provided. For the first image, the typical feature of stiction is the hysteresis loop trajectory. For the second image, the typical feature of stiction is sigmoid shape. For the third image, the typical feature of stiction is butterfly shape. If at least one image meets the feature, the control loop can be judged as stiction.",
+        "role":"system"
+      },
+      {
+        "content": "<image><image><image>Is there stiction in this control loop?",
+        "role": "user"
+      },
+      {
+        "content": "Yes, there is stiction in this control loop.",
+        "role": "assistant"
+      }
+    ],
+    "images": [
+      "/home/pzk29/XTC/LLaMA-Factory/data/Stiction_data/CHEM11/CHEM11_OP_PV_raw_v3.jpg", 
+      "/home/pzk29/XTC/LLaMA-Factory/data/fig_sigmoid2/CHEM11/CHEM11_norm_S2.jpg",
+      "/home/pzk29/XTC/LLaMA-Factory/data/Stiction_fly/fig/CHEM11/CHEM11_norm_fly_l.jpg"
+    ]
+  },
+
+  {
+    "messages": [
+      {
+        "content":"You need to detect stiction in control loop by three images provided. For the first image, the typical feature of stiction is the hysteresis loop trajectory. For the second image, the typical feature of stiction is sigmoid shape. For the third image, the typical feature of stiction is butterfly shape. If at least one image meets the feature, the control loop can be judged as stiction.",
+        "role":"system"
+      },
+      {
+        "content": "<image><image><image>Is there stiction in this control loop?",
+        "role": "user"
+      },
+      {
+        "content": "Yes, there is stiction in this control loop.",
+        "role": "assistant"
+      }
+    ],
+    "images": [
+      "/home/pzk29/XTC/LLaMA-Factory/data/Stiction_data/CHEM12/CHEM12_OP_PV_raw_v3.jpg", 
+      "/home/pzk29/XTC/LLaMA-Factory/data/fig_sigmoid2/CHEM12/CHEM12_norm_S2.jpg",
+      "/home/pzk29/XTC/LLaMA-Factory/data/Stiction_fly/fig/CHEM12/CHEM12_norm_fly_l.jpg"
+    ]
+  },
+
+  {
+    "messages": [
+      {
+        "content":"You need to detect stiction in control loop by three images provided. For the first image, the typical feature of stiction is the hysteresis loop trajectory. For the second image, the typical feature of stiction is sigmoid shape. For the third image, the typical feature of stiction is butterfly shape. If at least one image meets the feature, the control loop can be judged as stiction.",
+        "role":"system"
+      },
+      {
+        "content": "<image><image><image>Is there stiction in this control loop?",
+        "role": "user"
+      },
+      {
+        "content": "No, there is no stiction in this control loop.",
+        "role": "assistant"
+      }
+    ],
+    "images": [
+      "/home/pzk29/XTC/LLaMA-Factory/data/Stiction_data/CHEM13/CHEM13_OP_PV_raw_v3.jpg", 
+      "/home/pzk29/XTC/LLaMA-Factory/data/fig_sigmoid2/CHEM13/CHEM13_norm_S2.jpg",
+      "/home/pzk29/XTC/LLaMA-Factory/data/Stiction_fly/fig/CHEM13/CHEM13_norm_fly_l.jpg"
+    ]
+  },
+
+  {
+    "messages": [
+      {
+        "content":"You need to detect stiction in control loop by three images provided. For the first image, the typical feature of stiction is the hysteresis loop trajectory. For the second image, the typical feature of stiction is sigmoid shape. For the third image, the typical feature of stiction is butterfly shape. If at least one image meets the feature, the control loop can be judged as stiction.",
+        "role":"system"
+      },
+      {
+        "content": "<image><image><image>Is there stiction in this control loop?",
+        "role": "user"
+      },
+      {
+        "content": "No, there is no stiction in this control loop.",
+        "role": "assistant"
+      }
+    ],
+    "images": [
+      "/home/pzk29/XTC/LLaMA-Factory/data/Stiction_data/CHEM14/CHEM14_OP_PV_raw_v3.jpg", 
+      "/home/pzk29/XTC/LLaMA-Factory/data/fig_sigmoid2/CHEM14/CHEM14_norm_S2.jpg",
+      "/home/pzk29/XTC/LLaMA-Factory/data/Stiction_fly/fig/CHEM14/CHEM14_norm_fly_l.jpg"
+    ]
+  },
+
+  {
+    "messages": [
+      {
+        "content":"You need to detect stiction in control loop by three images provided. For the first image, the typical feature of stiction is the hysteresis loop trajectory. For the second image, the typical feature of stiction is sigmoid shape. For the third image, the typical feature of stiction is butterfly shape. If at least one image meets the feature, the control loop can be judged as stiction.",
+        "role":"system"
+      },
+      {
+        "content": "<image><image><image>Is there stiction in this control loop?",
+        "role": "user"
+      },
+      {
+        "content": "No, there is no stiction in this sysytem.",
+        "role": "assistant"
+      }
+    ],
+    "images": [
+      "/home/pzk29/XTC/LLaMA-Factory/data/Stiction_data/CHEM16/CHEM16_OP_PV_raw_v3.jpg", 
+      "/home/pzk29/XTC/LLaMA-Factory/data/fig_sigmoid2/CHEM16/CHEM16_norm_S2.jpg",
+      "/home/pzk29/XTC/LLaMA-Factory/data/Stiction_fly/fig/CHEM16/CHEM16_norm_fly_l.jpg"
+    ]
+  },
+
+  {
+    "messages": [
+      {
+        "content":"You need to detect stiction in control loop by three images provided. For the first image, the typical feature of stiction is the hysteresis loop trajectory. For the second image, the typical feature of stiction is sigmoid shape. For the third image, the typical feature of stiction is butterfly shape. If at least one image meets the feature, the control loop can be judged as stiction.",
+        "role":"system"
+      },
+      {
+        "content": "<image><image><image>Is there stiction in this control loop?",
+        "role": "user"
+      },
+      {
+        "content": "Yes, there is stiction in this control loop.",
+        "role": "assistant"
+      }
+    ],
+    "images": [
+      "/home/pzk29/XTC/LLaMA-Factory/data/Stiction_data/CHEM23/CHEM23_OP_PV_raw_v3.jpg", 
+      "/home/pzk29/XTC/LLaMA-Factory/data/fig_sigmoid2/CHEM23/CHEM23_norm_S2.jpg",
+      "/home/pzk29/XTC/LLaMA-Factory/data/Stiction_fly/fig/CHEM23/CHEM23_norm_fly_l.jpg"
+    ]
+  },
+
+  {
+    "messages": [
+      {
+        "content":"You need to detect stiction in control loop by three images provided. For the first image, the typical feature of stiction is the hysteresis loop trajectory. For the second image, the typical feature of stiction is sigmoid shape. For the third image, the typical feature of stiction is butterfly shape. If at least one image meets the feature, the control loop can be judged as stiction.",
+        "role":"system"
+      },
+      {
+        "content": "<image><image><image>Is there stiction in this control loop?",
+        "role": "user"
+      },
+      {
+        "content": "Yes, there is stiction in this control loop.",
+        "role": "assistant"
+      }
+    ],
+    "images": [
+      "/home/pzk29/XTC/LLaMA-Factory/data/Stiction_data/CHEM24/CHEM24_OP_PV_raw_v3.jpg", 
+      "/home/pzk29/XTC/LLaMA-Factory/data/fig_sigmoid2/CHEM24/CHEM24_norm_S2.jpg",
+      "/home/pzk29/XTC/LLaMA-Factory/data/Stiction_fly/fig/CHEM24/CHEM24_norm_fly_l.jpg"
+    ]
+  },
+
+  {
+    "messages": [
+      {
+        "content":"You need to detect stiction in control loop by three images provided. For the first image, the typical feature of stiction is the hysteresis loop trajectory. For the second image, the typical feature of stiction is sigmoid shape. For the third image, the typical feature of stiction is butterfly shape. If at least one image meets the feature, the control loop can be judged as stiction.",
+        "role":"system"
+      },
+      {
+        "content": "<image><image><image>Is there stiction in this control loop?",
+        "role": "user"
+      },
+      {
+        "content": "Yes, there is stiction in this control loop.",
+        "role": "assistant"
+      }
+    ],
+    "images": [
+      "/home/pzk29/XTC/LLaMA-Factory/data/Stiction_data/CHEM26/CHEM26_OP_PV_raw_v3.jpg", 
+      "/home/pzk29/XTC/LLaMA-Factory/data/fig_sigmoid2/CHEM26/CHEM26_norm_S2.jpg",
+      "/home/pzk29/XTC/LLaMA-Factory/data/Stiction_fly/fig/CHEM26/CHEM26_norm_fly_l.jpg"
+    ]
+  },
+
+  {
+    "messages": [
+      {
+        "content":"You need to detect stiction in control loop by three images provided. For the first image, the typical feature of stiction is the hysteresis loop trajectory. For the second image, the typical feature of stiction is sigmoid shape. For the third image, the typical feature of stiction is butterfly shape. If at least one image meets the feature, the control loop can be judged as stiction.",
+        "role":"system"
+      },
+      {
+        "content": "<image><image><image>Is there stiction in this control loop?",
+        "role": "user"
+      },
+      {
+        "content": "Yes, there is stiction in this sysytem.",
+        "role": "assistant"
+      }
+    ],
+    "images": [
+      "/home/pzk29/XTC/LLaMA-Factory/data/Stiction_data/CHEM29/CHEM29_OP_PV_raw_v3.jpg", 
+      "/home/pzk29/XTC/LLaMA-Factory/data/fig_sigmoid2/CHEM29/CHEM29_norm_S2.jpg",
+      "/home/pzk29/XTC/LLaMA-Factory/data/Stiction_fly/fig/CHEM29/CHEM29_norm_fly_l.jpg"
+    ]
+  },
+
+  {
+    "messages": [
+      {
+        "content":"You need to detect stiction in control loop by three images provided. For the first image, the typical feature of stiction is the hysteresis loop trajectory. For the second image, the typical feature of stiction is sigmoid shape. For the third image, the typical feature of stiction is butterfly shape. If at least one image meets the feature, the control loop can be judged as stiction.",
+        "role":"system"
+      },
+      {
+        "content": "<image><image><image>Is there stiction in this control loop?",
+        "role": "user"
+      },
+      {
+        "content": "Yes, there is stiction in this control loop.",
+        "role": "assistant"
+      }
+    ],
+    "images": [
+      "/home/pzk29/XTC/LLaMA-Factory/data/Stiction_data/CHEM32/CHEM32_OP_PV_raw_v3.jpg", 
+      "/home/pzk29/XTC/LLaMA-Factory/data/fig_sigmoid2/CHEM32/CHEM32_norm_S2.jpg",
+      "/home/pzk29/XTC/LLaMA-Factory/data/Stiction_fly/fig/CHEM32/CHEM32_norm_fly_l.jpg"
+    ]
+  },
+
+  {
+    "messages": [
+      {
+        "content":"You need to detect stiction in control loop by three images provided. For the first image, the typical feature of stiction is the hysteresis loop trajectory. For the second image, the typical feature of stiction is sigmoid shape. For the third image, the typical feature of stiction is butterfly shape. If at least one image meets the feature, the control loop can be judged as stiction.",
+        "role":"system"
+      },
+      {
+        "content": "<image><image><image>Is there stiction in this control loop?",
+        "role": "user"
+      },
+      {
+        "content": "No, there is no stiction in this sysytem.",
+        "role": "assistant"
+      }
+    ],
+    "images": [
+      "/home/pzk29/XTC/LLaMA-Factory/data/Stiction_data/CHEM33/CHEM33_OP_PV_raw_v3.jpg", 
+      "/home/pzk29/XTC/LLaMA-Factory/data/fig_sigmoid2/CHEM33/CHEM33_norm_S2.jpg",
+      "/home/pzk29/XTC/LLaMA-Factory/data/Stiction_fly/fig/CHEM33/CHEM33_norm_fly_l.jpg"
+    ]
+  },
+
+  {
+    "messages": [
+      {
+        "content":"You need to detect stiction in control loop by three images provided. For the first image, the typical feature of stiction is the hysteresis loop trajectory. For the second image, the typical feature of stiction is sigmoid shape. For the third image, the typical feature of stiction is butterfly shape. If at least one image meets the feature, the control loop can be judged as stiction.",
+        "role":"system"
+      },
+      {
+        "content": "<image><image><image>Is there stiction in this control loop?",
+        "role": "user"
+      },
+      {
+        "content": "No, there is no stiction in this sysytem.",
+        "role": "assistant"
+      }
+    ],
+    "images": [
+      "/home/pzk29/XTC/LLaMA-Factory/data/Stiction_data/CHEM34/CHEM34_OP_PV_raw_v3.jpg", 
+      "/home/pzk29/XTC/LLaMA-Factory/data/fig_sigmoid2/CHEM34/CHEM34_norm_S2.jpg",
+      "/home/pzk29/XTC/LLaMA-Factory/data/Stiction_fly/fig/CHEM34/CHEM34_norm_fly_l.jpg"
+    ]
+  },
+
+  {
+    "messages": [
+      {
+        "content":"You need to detect stiction in control loop by three images provided. For the first image, the typical feature of stiction is the hysteresis loop trajectory. For the second image, the typical feature of stiction is sigmoid shape. For the third image, the typical feature of stiction is butterfly shape. If at least one image meets the feature, the control loop can be judged as stiction.",
+        "role":"system"
+      },
+      {
+        "content": "<image><image><image>Is there stiction in this control loop?",
+        "role": "user"
+      },
+      {
+        "content": "No, there is no stiction in this sysytem.",
+        "role": "assistant"
+      }
+    ],
+    "images": [
+      "/home/pzk29/XTC/LLaMA-Factory/data/Stiction_data/CHEM58/CHEM58_OP_PV_raw_v3.jpg", 
+      "/home/pzk29/XTC/LLaMA-Factory/data/fig_sigmoid2/CHEM58/CHEM58_norm_S2.jpg",
+      "/home/pzk29/XTC/LLaMA-Factory/data/Stiction_fly/fig/CHEM58/CHEM58_norm_fly_l.jpg"
+    ]
+  },
+
+  {
+    "messages": [
+      {
+        "content":"You need to detect stiction in control loop by three images provided. For the first image, the typical feature of stiction is the hysteresis loop trajectory. For the second image, the typical feature of stiction is sigmoid shape. For the third image, the typical feature of stiction is butterfly shape. If at least one image meets the feature, the control loop can be judged as stiction.",
+        "role":"system"
+      },
+      {
+        "content": "<image><image><image>Is there stiction in this control loop?",
+        "role": "user"
+      },
+      {
+        "content": "Yes, there is stiction in this control loop.",
+        "role": "assistant"
+      }
+    ],
+    "images": [
+      "/home/pzk29/XTC/LLaMA-Factory/data/Stiction_data/MIN1/MIN1_OP_PV_raw_v3.jpg", 
+      "/home/pzk29/XTC/LLaMA-Factory/data/fig_sigmoid2/MIN1/MIN1_norm_S2.jpg",
+      "/home/pzk29/XTC/LLaMA-Factory/data/Stiction_fly/fig/MIN1/MIN1_norm_fly_l.jpg"
+    ]
+  },
+
+  {
+    "messages": [
+      {
+        "content":"You need to detect stiction in control loop by three images provided. For the first image, the typical feature of stiction is the hysteresis loop trajectory. For the second image, the typical feature of stiction is sigmoid shape. For the third image, the typical feature of stiction is butterfly shape. If at least one image meets the feature, the control loop can be judged as stiction.",
+        "role":"system"
+      },
+      {
+        "content": "<image><image><image>Is there stiction in this control loop?",
+        "role": "user"
+      },
+      {
+        "content": "Yes, there is stiction in this control loop.",
+        "role": "assistant"
+      }
+    ],
+    "images": [
+      "/home/pzk29/XTC/LLaMA-Factory/data/Stiction_data/PAP2/PAP2_OP_PV_raw_v3.jpg", 
+      "/home/pzk29/XTC/LLaMA-Factory/data/fig_sigmoid2/PAP2/PAP2_norm_S2.jpg",
+      "/home/pzk29/XTC/LLaMA-Factory/data/Stiction_fly/fig/PAP2/PAP2_norm_fly_l.jpg"
+    ]
+  },
+
+  {
+    "messages": [
+      {
+        "content":"You need to detect stiction in control loop by three images provided. For the first image, the typical feature of stiction is the hysteresis loop trajectory. For the second image, the typical feature of stiction is sigmoid shape. For the third image, the typical feature of stiction is butterfly shape. If at least one image meets the feature, the control loop can be judged as stiction.",
+        "role":"system"
+      },
+      {
+        "content": "<image><image><image>Is there stiction in this control loop?",
+        "role": "user"
+      },
+      {
+        "content": "No, there is no stiction in this sysytem.",
+        "role": "assistant"
+      }
+    ],
+    "images": [
+      "/home/pzk29/XTC/LLaMA-Factory/data/Stiction_data/PAP4/PAP4_OP_PV_raw_v3.jpg", 
+      "/home/pzk29/XTC/LLaMA-Factory/data/fig_sigmoid2/PAP4/PAP4_norm_S2.jpg",
+      "/home/pzk29/XTC/LLaMA-Factory/data/Stiction_fly/fig/PAP4/PAP4_norm_fly_l.jpg"
+    ]
+  },
+
+  {
+    "messages": [
+      {
+        "content":"You need to detect stiction in control loop by three images provided. For the first image, the typical feature of stiction is the hysteresis loop trajectory. For the second image, the typical feature of stiction is sigmoid shape. For the third image, the typical feature of stiction is butterfly shape. If at least one image meets the feature, the control loop can be judged as stiction.",
+        "role":"system"
+      },
+      {
+        "content": "<image><image><image>Is there stiction in this control loop?",
+        "role": "user"
+      },
+      {
+        "content": "Yes, there is stiction in this control loop.",
+        "role": "assistant"
+      }
+    ],
+    "images": [
+      "/home/pzk29/XTC/LLaMA-Factory/data/Stiction_data/PAP5/PAP5_OP_PV_raw_v3.jpg", 
+      "/home/pzk29/XTC/LLaMA-Factory/data/fig_sigmoid2/PAP5/PAP5_norm_S2.jpg",
+      "/home/pzk29/XTC/LLaMA-Factory/data/Stiction_fly/fig/PAP5/PAP5_norm_fly_l.jpg"
+    ]
+  },
+
+  {
+    "messages": [
+      {
+        "content":"You need to detect stiction in control loop by three images provided. For the first image, the typical feature of stiction is the hysteresis loop trajectory. For the second image, the typical feature of stiction is sigmoid shape. For the third image, the typical feature of stiction is butterfly shape. If at least one image meets the feature, the control loop can be judged as stiction.",
+        "role":"system"
+      },
+      {
+        "content": "<image><image><image>Is there stiction in this control loop?",
+        "role": "user"
+      },
+      {
+        "content": "No, there is no stiction in this sysytem.",
+        "role": "assistant"
+      }
+    ],
+    "images": [
+      "/home/pzk29/XTC/LLaMA-Factory/data/Stiction_data/PAP7/PAP7_OP_PV_raw_v3.jpg", 
+      "/home/pzk29/XTC/LLaMA-Factory/data/fig_sigmoid2/PAP7/PAP7_norm_S2.jpg",
+      "/home/pzk29/XTC/LLaMA-Factory/data/Stiction_fly/fig/PAP7/PAP7_norm_fly_l.jpg"
+    ]
+  },
+
+  {
+    "messages": [
+      {
+        "content":"You need to detect stiction in control loop by three images provided. For the first image, the typical feature of stiction is the hysteresis loop trajectory. For the second image, the typical feature of stiction is sigmoid shape. For the third image, the typical feature of stiction is butterfly shape. If at least one image meets the feature, the control loop can be judged as stiction.",
+        "role":"system"
+      },
+      {
+        "content": "<image><image><image>Is there stiction in this control loop?",
+        "role": "user"
+      },
+      {
+        "content": "No, there is no stiction in this sysytem.",
+        "role": "assistant"
+      }
+    ],
+    "images": [
+      "/home/pzk29/XTC/LLaMA-Factory/data/Stiction_data/PAP9/PAP9_OP_PV_raw_v3.jpg", 
+      "/home/pzk29/XTC/LLaMA-Factory/data/fig_sigmoid2/PAP9/PAP9_norm_S2.jpg",
+      "/home/pzk29/XTC/LLaMA-Factory/data/Stiction_fly/fig/PAP9/PAP9_norm_fly_l.jpg"
+    ]
+  }
+
+]
