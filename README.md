@@ -1,4 +1,4 @@
-# Project Title
+# StictionGPT
 
 This project provides the dataset, data processing code, and training and testing code for paper: "StictionGPT: Detecting Valve Stiction in Control Loops using Large Vision Language Model"
 
