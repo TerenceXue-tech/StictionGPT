@@ -26,6 +26,8 @@ Stiction detection in control valves is a critical challenge in control loop per
    pip install -r requirements.txt
    ```
 
+3. Install [ms-swift](https://github.com/modelscope/ms-swift) or [llama-factory](https://github.com/hiyouga/LLaMA-Factory):
+
 ---
 
 ## 📂 Dataset
