@@ -18,7 +18,7 @@ Stiction detection in control valves is a critical challenge in control loop per
    git clone https://github.com/TerenceXue-tech/StictionGPT.git
    ```
 
-2. Create a virtual environment and install dependencies:
+2. Create a virtual environment and install dependencies for image construction:
 
    ```bash
    conda create -n StictionGPT python=3.10
@@ -26,42 +26,25 @@ Stiction detection in control valves is a critical challenge in control loop per
    pip install -r requirements.txt
    ```
 
-3. Install [ms-swift](https://github.com/modelscope/ms-swift) or [llama-factory](https://github.com/hiyouga/LLaMA-Factory):
+3. Install [ms-swift](https://github.com/modelscope/ms-swift) or [llama-factory](https://github.com/hiyouga/LLaMA-Factory) for SFT:
 
 ---
 
 ## 📂 Dataset
 
-- Description of the dataset used (e.g., source, format, size).
-- Optionally, include instructions on how to download or prepare the dataset.
-
-Example:
-
-```bash
-wget https://example.com/dataset.zip
-unzip dataset.zip -d ./data/
-```
-
-Make sure your data directory is structured as follows:
-
-```
-data/
-├── train/
-├── val/
-└── test/
-```
+- [ISDB](https://sites.ualberta.ca/~bhuang/ISDB.zip)
+- Our plant dataset is available in this repository, and a detailed description can be found in the accompanying paper.
 
 ---
 
 ## 🏋️‍♂️ Training
 
-To train the model, run:
+To train the model using ms-swift, run:
 
-```bash
-python train.py --config configs/config.yaml
+```python
+CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7 NPROC_PER_NODE=8  nohup swift sft --torch_dtype 'bfloat16' --model '/home/shangchao/XTC/LLMs/InternVL2_5-38B-MPO' --model_type 'internvl2_5' --template 'internvl2_5' --dataset '/home/shangchao/XTC/LLaMA-Factory/data/stiction_loop.json' '/home/shangchao/XTC/LLaMA-Factory/data/stiction_loop_aug.json' '/home/shangchao/XTC/LLaMA-Factory/data/stiction_S_nonquantify2.json' '/home/shangchao/XTC/LLaMA-Factory/data/stiction_S_aug_nonquantify2.json' --max_length '1024' --init_weights 'True' --learning_rate '1e-4' --num_train_epochs '150.0' --attn_impl 'flash_attn' --gradient_accumulation_steps '8' --eval_steps '500' --output_dir 'output' --report_to 'tensorboard'  --deepspeed zero3  --add_version False --output_dir /home/shangchao/XTC/ms-swift/output/v14-20250311-104348 --logging_dir /home/shangchao/XTC/ms-swift/output/v14-20250311-104348/runs --ignore_args_error True > /home/shangchao/XTC/ms-swift/output/v14-20250311-104348/runs/run.log
 ```
 
-You can customize training parameters in the `configs/config.yaml` file.
 
 ---
 
@@ -69,23 +52,9 @@ You can customize training parameters in the `configs/config.yaml` file.
 
 To run inference on a single image or batch:
 
-```bash
-python inference.py --input_path path/to/image_or_folder --checkpoint path/to/model.ckpt
+```python
+CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7 swift infer   --adapters /home/shangchao/XTC/ms-swift/output/internvl2.5-38B-t-best/checkpoint-200    --infer_backend pt    --temperature 0.5   --max_new_tokens 2048    --val_dataset /home/shangchao/XTC/plant_data/pre-stiction_t_plant_test.json   --max_batch_size 1 
 ```
-
-The output predictions will be saved in `./results/`.
-
----
-
-## 📈 Results
-
-Optionally include your performance metrics (e.g., accuracy, F1 score) and example outputs here.
-
----
-
-## 📄 License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
 ---
 
