@@ -1,13 +1,12 @@
 # Project Title
 
-A brief description of your project.  
-E.g., "This project implements a deep learning model for image classification using PyTorch."
+This project provides the dataset, data processing code, and training and testing code for paper: ``StictionGPT: Detecting Valve Stiction in Control Loops using Large Vision Language Model''
 
 ---
 
-## 📌 Introduction
+## 📌 Abstract
 
-Provide a clear and concise explanation of your project goals, background, and what problem it solves.
+Stiction detection in control valves is a critical challenge in control loop performance assessment and fault diagnosis within the process industry. Existing stiction detection methods often require determining a threshold or rely on large number of data to train deep neural networks. However, they face challenges such as difficulty in threshold determination, poor transferability, and lack of interpretability. Recent advancements in large language models (LLMs) and large vision-language models (LVLMs) have opened new avenues for industrial fault diagnosis by leveraging their reasoning and multimodal understanding capabilities. We propose StictionGPT, an LVLM-based agent for valve stiction detection. To overcome traditional method's limitations, we  leverage LVLMs to mimic human decision-making, combining textual semantics with visual shape features to determine the presence of stiction.  First, we transform time-series data into images that contain shape features. These images are time-series plot, PV-OP plot, OP-$\Delta$PV plot and CRD-PV plot. Then, we create a multimodal dataset based on the semantics of these shapes for image-text alignment. Next, we fine-tune Qwen2.5-VL and InternVL2.5-MPO using low-rank adaption (LoRA) to adapt the LVLMs to stiction detection task. Finally, we test the model on the ISDB benchmark and deploy it in a chemical plant. StictionGPT achieves the highest accuracy on the ISDB benchmark and demonstrates excellent performance on the plant data.
 
 ---
 
