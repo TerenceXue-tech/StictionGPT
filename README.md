@@ -1,6 +1,6 @@
 # Project Title
 
-This project provides the dataset, data processing code, and training and testing code for paper: ``StictionGPT: Detecting Valve Stiction in Control Loops using Large Vision Language Model''
+This project provides the dataset, data processing code, and training and testing code for paper: "StictionGPT: Detecting Valve Stiction in Control Loops using Large Vision Language Model"
 
 ---
 
@@ -22,8 +22,8 @@ Stiction detection in control valves is a critical challenge in control loop per
 2. Create a virtual environment and install dependencies:
 
    ```bash
-   python -m venv env
-   source env/bin/activate  # On Windows use `env\Scripts\activate`
+   conda create -n StictionGPT python=3.10
+   conda activate StictionGPT
    pip install -r requirements.txt
    ```
 
