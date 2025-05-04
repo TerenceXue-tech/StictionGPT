@@ -15,8 +15,7 @@ Stiction detection in control valves is a critical challenge in control loop per
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/yourusername/yourproject.git
-   cd yourproject
+   git clone https://github.com/TerenceXue-tech/StictionGPT.git
    ```
 
 2. Create a virtual environment and install dependencies:
