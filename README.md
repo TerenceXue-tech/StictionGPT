@@ -33,7 +33,7 @@ Stiction detection in control valves is a critical challenge in control loop per
 ## 📂 Dataset
 
 - [ISDB](https://sites.ualberta.ca/~bhuang/ISDB.zip), the benchmark for stiction detection task.
-- Our plant dataset is available in this repository, and a detailed description can be found in the accompanying paper.
+- Our plant dataset is available in this repository, and a detailed description can be found in our paper.
 
 ---
 
