@@ -37,6 +37,18 @@ Stiction detection in control valves is a critical challenge in control loop per
 
 ---
 
+## 📂 Foundation LVLM
+
+Download Qwen2.5-VL-7B-Instruct and InternVL2.5-38B-MPO:
+
+   ```bash
+   git lfs install
+   git clone https://www.modelscope.cn/Qwen/Qwen2.5-VL-7B-Instruct.git
+   git clone https://www.modelscope.cn/OpenGVLab/InternVL2_5-38B-MPO.git
+   ```
+
+---
+
 ## 🏋️‍♂️ Training
 
 Our devices: 8*RTX4090 GPUs. To train the model using ms-swift, run:
@@ -58,16 +70,3 @@ CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7 swift infer   --adapters /home/shangchao/XT
 
 ---
 
-## 🙋 Citation
-
-If you use this work in your research, please cite it as follows:
-
-```
-@misc{yourproject2025,
-  title={Your Project Title},
-  author={Your Name},
-  year={2025},
-  howpublished={\url{https://github.com/yourusername/yourproject}},
-  note={Version 1.0}
-}
-```
