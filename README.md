@@ -1,6 +1,6 @@
 # StictionGPT
 
-This project provides the dataset, data processing code, and training and testing code for [paper](https://dx.doi.org/10.2139/ssrn.5265092): "StictionGPT: Detecting Valve Stiction in Control Loops using Large Vision Language Model"
+This project provides the dataset, data processing code, and training and testing code for [paper](https://dx.doi.org/10.2139/ssrn.5265092): "StictionGPT: Detecting Valve Stiction in Process Control Loops using Large Vision Language Model"
 
 ---
 
