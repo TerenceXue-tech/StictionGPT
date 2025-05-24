@@ -75,6 +75,22 @@ To run inference on testing dataset:
 ```python
 CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7 swift infer   --adapters /home/shangchao/XTC/ms-swift/output/internvl2.5-38B-t-best/checkpoint-200    --infer_backend pt    --temperature 0.5   --max_new_tokens 2048    --val_dataset /home/shangchao/XTC/plant_data/pre-stiction_t_plant_test.json   --max_batch_size 1 
 ```
+---
+
+📄 Citation
+
+If you use this project or its results in your research, please cite:
+
+```bibtex
+@unpublished{xue2025stictiongpt,
+  author    = {Xue, Tianci and Shang, Chao and Huang, Dexian and Huang, Biao},
+  title     = {StictionGPT: Detecting Valve Stiction in Process Control Loops Using Large Vision Language Model},
+  year      = {2025},
+  url       = {https://ssrn.com/abstract=5265092},
+  doi       = {10.2139/ssrn.5265092}
+}
+
+```
 
 ---
 
