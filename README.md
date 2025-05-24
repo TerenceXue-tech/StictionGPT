@@ -1,5 +1,5 @@
 # StictionGPT: Detecting Valve Stiction in Process Control Loops using Large Vision Language Model
-Tianci Xue, Chao Shang, Dexian Huang, Biao Huang
+Authors: Tianci Xue, Chao Shang, Dexian Huang, Biao Huang
 
 This project provides the dataset, data processing code, and training and testing code for [paper](https://dx.doi.org/10.2139/ssrn.5265092)
 
