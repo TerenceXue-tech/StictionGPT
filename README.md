@@ -88,7 +88,7 @@ If you use this project or its results in your research, please cite:
 ```bibtex
 @unpublished{xue2025stictiongpt,
   author    = {Xue, Tianci and Shang, Chao and Huang, Dexian and Huang, Biao},
-  title     = {StictionGPT: Detecting Valve Stiction in Process Control Loops Using Large Vision Language Model},
+  title     = {Stiction{GPT}: Detecting Valve Stiction in Process Control Loops using Large Vision Language Model},
   year      = {2025},
   journal   = {Available at SSRN 5265092},
   url       = {https://dx.doi.org/10.2139/ssrn.5265092},
