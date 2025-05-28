@@ -1,0 +1,542 @@
+[
+  {
+    "messages": [
+      {
+        "content": "You are required to determine the presence of Stiction through the image. The image features PV (blue line) and OP (orange line) on the y-axis, with time on the x-axis. PV denotes process variable, while OP represents controller output. Key characteristics of Stiction: 1. When OP alters, PV does not react instantly but stays at its initial level. Once OP surpasses a specific threshold, PV abruptly surges. 2. PV's change trails behind OP's change. Stiction can only be confirmed if both traits are present.",
+        "role": "system"
+      },
+      {
+        "content": "<image>Here is the PV&OP-t graph. Is there stiction?",
+        "role": "user"
+      },
+      {
+        "content": "Yes, stiction is present in this control loop.",
+        "role": "assistant"
+      },
+      {
+        "content": "Why do you think so?",
+        "role": "user"
+      },
+      {
+        "content": "PV's change lags behind OP's change, and a distinct stick-jump phenomenon is observed.",
+        "role": "assistant"
+      }
+    ],
+    "images": [
+      "/data/XTC/plant_data/stiction_train_t/1_stic_2411FIC20102_20241226_0953_Stick1=0.681163.txt_t.jpg"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "content": "You need to assess whether Stiction exists based on the image. The image displays PV (blue line) and OP (orange line) on the y-axis and time on the x-axis. PV signifies process variable, and OP signifies controller output. Typical characteristics of Stiction: 1. Upon OP's change, PV does not respond right away but stays at its original level. Once OP exceeds a certain threshold, PV suddenly jumps. 2. PV's change is delayed compared to OP's change. Stiction can only be judged if both characteristics are met.",
+        "role": "system"
+      },
+      {
+        "content": "<image>This is the PV&OP-t graph. Is there stiction?",
+        "role": "user"
+      },
+      {
+        "content": "Yes, there is stiction in this control loop.",
+        "role": "assistant"
+      },
+      {
+        "content": "What's the basis for your judgment?",
+        "role": "user"
+      },
+      {
+        "content": "PV's change is behind OP's change, and an obvious stick-jump phenomenon is present.",
+        "role": "assistant"
+      }
+    ],
+    "images": [
+      "/data/XTC/plant_data/stiction_train_t/2_stic_2411FIC20102_1118_1822_Stick1=0.8348.txt_t.jpg"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "content": "You must determine whether Stiction is present by examining the image. The image includes PV (blue line) and OP (orange line) on the y-axis and time on the x-axis. PV refers to process variable, and OP refers to controller output. Typical characteristics of Stiction: 1. When OP changes, PV does not immediately respond but stays at its initial level. Once OP exceeds a certain threshold, PV suddenly jumps. 2. PV's change is delayed compared to OP's change. Stiction can only be confirmed if both characteristics are met.",
+        "role": "system"
+      },
+      {
+        "content": "<image>Here is the PV&OP-t graph. Is there stiction?",
+        "role": "user"
+      },
+      {
+        "content": "Yes, stiction is detected in this control loop.",
+        "role": "assistant"
+      },
+      {
+        "content": "How did you come to that conclusion?",
+        "role": "user"
+      },
+      {
+        "content": "PV's change lags behind OP's change, and a clear stick-jump phenomenon is observed.",
+        "role": "assistant"
+      }
+    ],
+    "images": [
+      "/data/XTC/plant_data/stiction_train_t/4_stic_2411FIC20102_1024_0004_Stick1=0.55336.txt_t.jpg"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "content": "You need to determine if Stiction is present by analyzing the image. The image shows PV (blue line) and OP (orange line) on the y-axis and time on the x-axis. PV indicates process variable, and OP indicates controller output. Typical characteristics of Stiction: 1. When OP changes, PV does not respond immediately but stays at its original level. Once OP exceeds a certain threshold, PV suddenly jumps. 2. PV's change is delayed compared to OP's change. Stiction can only be judged if both characteristics are met.",
+        "role": "system"
+      },
+      {
+        "content": "<image>This is the PV&OP-t graph. Is there stiction?",
+        "role": "user"
+      },
+      {
+        "content": "Yes, stiction is present in this control loop.",
+        "role": "assistant"
+      },
+      {
+        "content": "What makes you say that?",
+        "role": "user"
+      },
+      {
+        "content": "PV's change is behind OP's change, and a distinct stick-jump phenomenon is observed.",
+        "role": "assistant"
+      }
+    ],
+    "images": [
+      "/data/XTC/plant_data/stiction_train_t/52_stic_2111FIC46005_0902_0003_Stick1=0.txt_t.jpg"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "content": "You need to determine whether Stiction is present by examining the image. The image includes PV (blue line) and OP (orange line) on the y-axis and time on the x-axis. PV represents process variable, and OP represents controller output. Typical characteristics of Stiction: 1. When OP changes, PV does not respond immediately but remains at its original level. Once OP exceeds a certain threshold, PV suddenly jumps. 2. PV's change is delayed compared to OP's change. Stiction can only be judged if both characteristics are met.",
+        "role": "system"
+      },
+      {
+        "content": "<image>Here is the PV&OP-t graph. Is there stiction?",
+        "role": "user"
+      },
+      {
+        "content": "Yes, stiction is present in this control loop.",
+        "role": "assistant"
+      },
+      {
+        "content": "What's your reasoning?",
+        "role": "user"
+      },
+      {
+        "content": "PV's change lags behind OP's change, and a clear stick-jump phenomenon is observed.",
+        "role": "assistant"
+      }
+    ],
+    "images": [
+      "/data/XTC/plant_data/stiction_train_t/62_stic_2411FIC20102_1009_0004_Stick1=0.87132.txt_t.jpg"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "content": "You must determine whether Stiction is present by examining the image. The image includes PV (blue line) and OP (orange line) on the y-axis and time on the x-axis. PV represents process variable, and OP represents controller output. Typical characteristics of Stiction: 1. When OP changes, PV does not respond immediately but remains at its original level. Once OP exceeds a certain threshold, PV suddenly jumps. 2. PV's change is delayed compared to OP's change. Stiction can only be judged if both characteristics are met.",
+        "role": "system"
+      },
+      {
+        "content": "<image>Here is the PV&OP-t graph. Is there stiction?",
+        "role": "user"
+      },
+      {
+        "content": "Yes, stiction is present in this control loop.",
+        "role": "assistant"
+      },
+      {
+        "content": "What's your reasoning?",
+        "role": "user"
+      },
+      {
+        "content": "PV's change lags behind OP's change, and a clear stick-jump phenomenon is observed.",
+        "role": "assistant"
+      }
+    ],
+    "images": [
+      "/data/XTC/plant_data/stiction_train_t/80_stic_2411FIC20102_1113_0005_Stick1=0.69853.txt_t.jpg"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "content": "You need to determine whether Stiction is present by examining the image. The image includes PV (blue line) and OP (orange line) on the y-axis and time on the x-axis. PV represents process variable, and OP represents controller output. Typical characteristics of Stiction: 1. When OP changes, PV does not respond immediately but remains at its original level. Once OP exceeds a certain threshold, PV suddenly jumps. 2. PV's change is delayed compared to OP's change. Stiction can only be judged if both characteristics are met.",
+        "role": "system"
+      },
+      {
+        "content": "<image>Here is the PV&OP-t graph. Is there stiction?",
+        "role": "user"
+      },
+      {
+        "content": "Yes, stiction is present in this control loop.",
+        "role": "assistant"
+      },
+      {
+        "content": "What's your reasoning?",
+        "role": "user"
+      },
+      {
+        "content": "PV's change lags behind OP's change, and a clear stick-jump phenomenon is observed.",
+        "role": "assistant"
+      }
+    ],
+    "images": [
+      "/data/XTC/plant_data/stiction_train_t/106_stic_2411FIC20102_1009_1602_Stick1=0.59832.txt_t.jpg"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "content": "You need to determine whether Stiction is present by examining the image. The image includes PV (blue line) and OP (orange line) on the y-axis and time on the x-axis. PV represents process variable, and OP represents controller output. Typical characteristics of Stiction: 1. When OP changes, PV does not respond immediately but remains at its original level. Once OP exceeds a certain threshold, PV suddenly jumps. 2. PV's change is delayed compared to OP's change. Stiction can only be judged if both characteristics are met.",
+        "role": "system"
+      },
+      {
+        "content": "<image>Here is the PV&OP-t graph. Is there stiction?",
+        "role": "user"
+      },
+      {
+        "content": "Yes, stiction is present in this control loop.",
+        "role": "assistant"
+      },
+      {
+        "content": "What's your reasoning?",
+        "role": "user"
+      },
+      {
+        "content": "PV's change lags behind OP's change, and a clear stick-jump phenomenon is observed.",
+        "role": "assistant"
+      }
+    ],
+    "images": [
+      "/data/XTC/plant_data/stiction_train_t/112_stic_RHT.7050-342_FIC10112_0702_0009_Stick1=1.txt_t.jpg"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "content": "You need to determine whether Stiction is present by examining the image. The image includes PV (blue line) and OP (orange line) on the y-axis and time on the x-axis. PV represents process variable, and OP represents controller output. Typical characteristics of Stiction: 1. When OP changes, PV does not respond immediately but remains at its original level. Once OP exceeds a certain threshold, PV suddenly jumps. 2. PV's change is delayed compared to OP's change. Stiction can only be judged if both characteristics are met.",
+        "role": "system"
+      },
+      {
+        "content": "<image>Here is the PV&OP-t graph. Is there stiction?",
+        "role": "user"
+      },
+      {
+        "content": "Yes, stiction is present in this control loop.",
+        "role": "assistant"
+      },
+      {
+        "content": "What's your reasoning?",
+        "role": "user"
+      },
+      {
+        "content": "PV's change lags behind OP's change, and a clear stick-jump phenomenon is observed.",
+        "role": "assistant"
+      }
+    ],
+    "images": [
+      "/data/XTC/plant_data/stiction_train_t/297_stic_2411FIC10104_20250224_0009_Stick1=0.562786.txt_t.jpg"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "content": "You need to determine whether Stiction is present by examining the image. The image includes PV (blue line) and OP (orange line) on the y-axis and time on the x-axis. PV represents process variable, and OP represents controller output. Typical characteristics of Stiction: 1. When OP changes, PV does not respond immediately but remains at its original level. Once OP exceeds a certain threshold, PV suddenly jumps. 2. PV's change is delayed compared to OP's change. Stiction can only be judged if both characteristics are met.",
+        "role": "system"
+      },
+      {
+        "content": "<image>Here is the PV&OP-t graph. Is there stiction?",
+        "role": "user"
+      },
+      {
+        "content": "Yes, stiction is present in this control loop.",
+        "role": "assistant"
+      },
+      {
+        "content": "What's your reasoning?",
+        "role": "user"
+      },
+      {
+        "content": "PV's change lags behind OP's change, and a clear stick-jump phenomenon is observed.",
+        "role": "assistant"
+      }
+    ],
+    "images": [
+      "/data/XTC/plant_data/stiction_train_t/312_stic_2411FIC20102_0825_0004_Stick1=0.97807.txt_t.jpg"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "content": "You need to determine whether Stiction is present by examining the image. The image includes PV (blue line) and OP (orange line) on the y-axis and time on the x-axis. PV represents process variable, and OP represents controller output. Typical characteristics of Stiction: 1. When OP changes, PV does not respond immediately but remains at its original level. Once OP exceeds a certain threshold, PV suddenly jumps. 2. PV's change is delayed compared to OP's change. Stiction can only be judged if both characteristics are met.",
+        "role": "system"
+      },
+      {
+        "content": "<image>Here is the PV&OP-t graph. Is there stiction?",
+        "role": "user"
+      },
+      {
+        "content": "No, there is no stiction in this control loop.",
+        "role": "assistant"
+      },
+      {
+        "content": "What's your reasoning?",
+        "role": "user"
+      },
+      {
+        "content": "PV does not show stick. It does not meet the characteristics of stiction.",
+        "role": "assistant"
+      }
+    ],
+    "images": [
+      "/data/XTC/plant_data/non-stiction_train_t/4_stic_2411FIC20502_0904_0005_Stick1=0.0046722.txt_t.jpg"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "content": "You need to determine whether Stiction is present by examining the image. The image includes PV (blue line) and OP (orange line) on the y-axis and time on the x-axis. PV represents process variable, and OP represents controller output. Typical characteristics of Stiction: 1. When OP changes, PV does not respond immediately but remains at its original level. Once OP exceeds a certain threshold, PV suddenly jumps. 2. PV's change is delayed compared to OP's change. Stiction can only be judged if both characteristics are met.",
+        "role": "system"
+      },
+      {
+        "content": "<image>Here is the PV&OP-t graph. Is there stiction?",
+        "role": "user"
+      },
+      {
+        "content": "No, there is no stiction in this control loop.",
+        "role": "assistant"
+      },
+      {
+        "content": "What's your reasoning?",
+        "role": "user"
+      },
+      {
+        "content": "PV does not show stick. It does not meet the characteristics of stiction.",
+        "role": "assistant"
+      }
+    ],
+    "images": [
+      "/data/XTC/plant_data/non-stiction_train_t/5_stic_2111LIC33101_1025_0008_Stick1=0.00089805.txt_t.jpg"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "content": "You need to determine whether Stiction is present by examining the image. The image includes PV (blue line) and OP (orange line) on the y-axis and time on the x-axis. PV represents process variable, and OP represents controller output. Typical characteristics of Stiction: 1. When OP changes, PV does not respond immediately but remains at its original level. Once OP exceeds a certain threshold, PV suddenly jumps. 2. PV's change is delayed compared to OP's change. Stiction can only be judged if both characteristics are met.",
+        "role": "system"
+      },
+      {
+        "content": "<image>Here is the PV&OP-t graph. Is there stiction?",
+        "role": "user"
+      },
+      {
+        "content": "No, there is no stiction in this control loop.",
+        "role": "assistant"
+      },
+      {
+        "content": "What's your reasoning?",
+        "role": "user"
+      },
+      {
+        "content": "PV and OP change in opposite directions and there is no stick in PV. It does not meet the characteristics of stiction.",
+        "role": "assistant"
+      }
+    ],
+    "images": [
+      "/data/XTC/plant_data/non-stiction_train_t/11_stic_2111FIC41004_1108_0013_Stick1=0.00061231.txt_t.jpg"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "content": "You need to determine whether Stiction is present by examining the image. The image includes PV (blue line) and OP (orange line) on the y-axis and time on the x-axis. PV represents process variable, and OP represents controller output. Typical characteristics of Stiction: 1. When OP changes, PV does not respond immediately but remains at its original level. Once OP exceeds a certain threshold, PV suddenly jumps. 2. PV's change is delayed compared to OP's change. Stiction can only be judged if both characteristics are met.",
+        "role": "system"
+      },
+      {
+        "content": "<image>Here is the PV&OP-t graph. Is there stiction?",
+        "role": "user"
+      },
+      {
+        "content": "No, there is no stiction in this control loop.",
+        "role": "assistant"
+      },
+      {
+        "content": "What's your reasoning?",
+        "role": "user"
+      },
+      {
+        "content": "PV and OP have a lot of overlap. It does not meet the characteristics of stiction.",
+        "role": "assistant"
+      }
+    ],
+    "images": [
+      "/data/XTC/plant_data/non-stiction_train_t/17_stic_2111LIC23001_1110_0008_Stick1=0.0014137.txt_t.jpg"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "content": "You need to determine whether Stiction is present by examining the image. The image includes PV (blue line) and OP (orange line) on the y-axis and time on the x-axis. PV represents process variable, and OP represents controller output. Typical characteristics of Stiction: 1. When OP changes, PV does not respond immediately but remains at its original level. Once OP exceeds a certain threshold, PV suddenly jumps. 2. PV's change is delayed compared to OP's change. Stiction can only be judged if both characteristics are met.",
+        "role": "system"
+      },
+      {
+        "content": "<image>Here is the PV&OP-t graph. Is there stiction?",
+        "role": "user"
+      },
+      {
+        "content": "No, there is no stiction in this control loop.",
+        "role": "assistant"
+      },
+      {
+        "content": "What's your reasoning?",
+        "role": "user"
+      },
+      {
+        "content": "PV and OP have a lot of overlap. It does not meet the characteristics of stiction.",
+        "role": "assistant"
+      }
+    ],
+    "images": [
+      "/data/XTC/plant_data/non-stiction_train_t/20_stic_2111FIC40102B_0825_0010_Stick1=4.8582E-05.txt_t.jpg"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "content": "You need to determine whether Stiction is present by examining the image. The image includes PV (blue line) and OP (orange line) on the y-axis and time on the x-axis. PV represents process variable, and OP represents controller output. Typical characteristics of Stiction: 1. When OP changes, PV does not respond immediately but remains at its original level. Once OP exceeds a certain threshold, PV suddenly jumps. 2. PV's change is delayed compared to OP's change. Stiction can only be judged if both characteristics are met.",
+        "role": "system"
+      },
+      {
+        "content": "<image>Here is the PV&OP-t graph. Is there stiction?",
+        "role": "user"
+      },
+      {
+        "content": "No, there is no stiction in this control loop.",
+        "role": "assistant"
+      },
+      {
+        "content": "What's your reasoning?",
+        "role": "user"
+      },
+      {
+        "content": "PV and OP change in opposite directions and there is no stick in PV. It does not meet the characteristics of stiction.",
+        "role": "assistant"
+      }
+    ],
+    "images": [
+      "/data/XTC/plant_data/non-stiction_train_t/25_stic_2111LIC31102B_0826_0009_Stick1=0.0028773.txt_t.jpg"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "content": "You need to determine whether Stiction is present by examining the image. The image includes PV (blue line) and OP (orange line) on the y-axis and time on the x-axis. PV represents process variable, and OP represents controller output. Typical characteristics of Stiction: 1. When OP changes, PV does not respond immediately but remains at its original level. Once OP exceeds a certain threshold, PV suddenly jumps. 2. PV's change is delayed compared to OP's change. Stiction can only be judged if both characteristics are met.",
+        "role": "system"
+      },
+      {
+        "content": "<image>Here is the PV&OP-t graph. Is there stiction?",
+        "role": "user"
+      },
+      {
+        "content": "No, there is no stiction in this control loop.",
+        "role": "assistant"
+      },
+      {
+        "content": "What's your reasoning?",
+        "role": "user"
+      },
+      {
+        "content": "PV can follow the changes of OP very well and there is a lot of overlap. It does not meet the characteristics of stiction.",
+        "role": "assistant"
+      }
+    ],
+    "images": [
+      "/data/XTC/plant_data/non-stiction_train_t/54_stic_2111FIC10201_1212_0002_Stick1=0.40293.txt_t.jpg"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "content": "You need to determine whether Stiction is present by examining the image. The image includes PV (blue line) and OP (orange line) on the y-axis and time on the x-axis. PV represents process variable, and OP represents controller output. Typical characteristics of Stiction: 1. When OP changes, PV does not respond immediately but remains at its original level. Once OP exceeds a certain threshold, PV suddenly jumps. 2. PV's change is delayed compared to OP's change. Stiction can only be judged if both characteristics are met.",
+        "role": "system"
+      },
+      {
+        "content": "<image>Here is the PV&OP-t graph. Is there stiction?",
+        "role": "user"
+      },
+      {
+        "content": "No, there is no stiction in this control loop.",
+        "role": "assistant"
+      },
+      {
+        "content": "What's your reasoning?",
+        "role": "user"
+      },
+      {
+        "content": "PV can follow the changes of OP very well and there is a lot of overlap. It does not meet the characteristics of stiction.",
+        "role": "assistant"
+      }
+    ],
+    "images": [
+      "/data/XTC/plant_data/non-stiction_train_t/75_stic_2411FIC90204_1021_0657_Stick1=0.72352.txt_t.jpg"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "content": "You need to determine whether Stiction is present by examining the image. The image includes PV (blue line) and OP (orange line) on the y-axis and time on the x-axis. PV represents process variable, and OP represents controller output. Typical characteristics of Stiction: 1. When OP changes, PV does not respond immediately but remains at its original level. Once OP exceeds a certain threshold, PV suddenly jumps. 2. PV's change is delayed compared to OP's change. Stiction can only be judged if both characteristics are met.",
+        "role": "system"
+      },
+      {
+        "content": "<image>Here is the PV&OP-t graph. Is there stiction?",
+        "role": "user"
+      },
+      {
+        "content": "No, there is no stiction in this control loop.",
+        "role": "assistant"
+      },
+      {
+        "content": "What's your reasoning?",
+        "role": "user"
+      },
+      {
+        "content": "PV can follow the changes of OP very well and there is a lot of overlap. It does not meet the characteristics of stiction.",
+        "role": "assistant"
+      }
+    ],
+    "images": [
+      "/data/XTC/plant_data/non-stiction_train_t/89_stic_2111LIC44001_1103_0010_Stick1=0.txt_t.jpg"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "content": "You need to determine whether Stiction is present by examining the image. The image includes PV (blue line) and OP (orange line) on the y-axis and time on the x-axis. PV represents process variable, and OP represents controller output. Typical characteristics of Stiction: 1. When OP changes, PV does not respond immediately but remains at its original level. Once OP exceeds a certain threshold, PV suddenly jumps. 2. PV's change is delayed compared to OP's change. Stiction can only be judged if both characteristics are met.",
+        "role": "system"
+      },
+      {
+        "content": "<image>Here is the PV&OP-t graph. Is there stiction?",
+        "role": "user"
+      },
+      {
+        "content": "No, there is no stiction in this control loop.",
+        "role": "assistant"
+      },
+      {
+        "content": "What's your reasoning?",
+        "role": "user"
+      },
+      {
+        "content": "PV and OP change in opposite directions and there is no stick in PV. It does not meet the characteristics of stiction.",
+        "role": "assistant"
+      }
+    ],
+    "images": [
+      "/data/XTC/plant_data/non-stiction_train_t/295_stic_2111LIC31102B_0904_0008_Stick1=0.txt_t.jpg"
+    ]
+  }
+]
