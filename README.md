@@ -4,7 +4,7 @@
 
 Authors: Tianci Xue, Chao Shang, Dexian Huang, Biao Huang
 
-This project provides the dataset, data processing code, training and testing code for [paper](https://dx.doi.org/10.2139/ssrn.5265092)
+This project provides the dataset, data processing code, training and testing code for [paper](https://doi.org/10.1016/j.conengprac.2025.106588)
 
 ---
 
