@@ -87,13 +87,14 @@ CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7 swift infer   --adapters /home/shangchao/XT
 If you use this project or its results in your research, please cite:
 
 ```bibtex
-@unpublished{xue2025stictiongpt,
-  author    = {Xue, Tianci and Shang, Chao and Huang, Dexian and Huang, Biao},
-  title     = {Stiction{GPT}: Detecting Valve Stiction in Process Control Loops using Large Vision Language Model},
-  year      = {2025},
-  journal   = {Available at SSRN 5265092},
-  url       = {https://dx.doi.org/10.2139/ssrn.5265092},
-  doi       = {10.2139/ssrn.5265092}
+@article{xue2025stictiongpt,
+  title={StictionGPT: Detecting valve stiction in process control loops using large vision language model},
+  author={Xue, Tianci and Shang, Chao and Huang, Dexian and Huang, Biao},
+  journal={Control Engineering Practice},
+  volume={165},
+  pages={106588},
+  year={2025},
+  publisher={Elsevier}
 }
 
 ```
